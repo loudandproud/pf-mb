@@ -1,0 +1,21 @@
+/* PowerTip Plugin */
+#powerTip {
+	cursor: default;
+	background-color: #333;
+	/*border-radius: 10px;*/
+	/*background-color: rgba(0, 0, 0, 0.8);*/
+	color: #fff;
+	display: none;
+	padding: 10px;
+	position: absolute;
+	/*white-space: nowrap;*/
+	z-index: 2147483647;
+	
+	border-radius: 50%;
+	height:80px;
+	width:80px;
+	text-align:center;
+	font-size:14px;
+	
+}
+

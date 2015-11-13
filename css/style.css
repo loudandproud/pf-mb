@@ -1,0 +1,2278 @@
+w@charset "UTF-8";
+/* CSS Document */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-weight:normal;
+}
+
+html{
+	font-size: 62.5%;/*16px = 1.6rem*/
+}
+
+body{
+	font-family:'Open Sans', Verdana, Geneva, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+	font-size:16px;
+	font-size:1.6rem;
+}
+
+li{
+	list-style:none;
+}
+
+
+@font-face {
+	font-family:Candida;
+	src:url(../fonts/CandidaStd-Roman.ttf);
+}
+
+@font-face {
+	font-family:Candida;
+	font-weight:bold;
+	src:url(../fonts/CandidaStd-Bold.ttf);
+}
+
+@font-face {
+	font-family:Roboto2014;
+	src:url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family:Roboto2014;
+	font-weight:100;
+	src:url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family:Roboto2014;
+	font-weight:bold;
+	src:url(../fonts/Roboto-Bold.ttf);
+}
+
+body,p{
+	margin:0;
+	padding:0;
+}
+
+img{
+	display:block;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a{
+	display:block;
+	text-decoration:none;
+	color:#333;
+}
+
+.panel{
+	width:100%;
+}
+
+.pageContent {
+    position: relative;
+    width: 100%;
+	margin:0 auto;
+}
+
+.panel-inner{
+	width:100%;
+	margin:0 auto;
+	padding:6rem;
+}
+
+.mobile-wrapper {
+    position:fixed;
+    animation-name:box;
+    animation-duration:0.5s;
+    animation-timing-function:cubic-bezier(0.000, 0.895, 0.460, 1.000);
+    animation-fill-mode: forwards;
+    -webkit-animation-name:box;
+    -webkit-animation-duration:0.5s;
+    -webkit-animation-timing-function:cubic-bezier(0.000, 0.895, 0.460, 1.000);
+	-webkit-animation-fill-mode: forwards; /* Safari and Chrome */
+}
+
+@keyframes box{
+    0% {
+        transform:translateX(0px);
+        -webkit-transform:translateX(0px);
+        -moz-transform:translateX(0px);
+    }
+    100% {
+        transform:translateX(260px);
+        -webkit-transform:translateX(260px);
+        -moz-transform:translateX(260px);
+    }
+}
+
+@-webkit-keyframes box{
+    0% {
+        transform:translateX(0px);
+        -webkit-transform:translateX(0px);
+        -moz-transform:translateX(0px);
+    }
+    100% {
+        transform:translateX(18rem);
+        -webkit-transform:translateX(18rem);
+        -moz-transform:translateX(18rem);
+    }
+}
+
+.mobile-nav{
+	display:none;
+	background-color:#151515;
+	color:#fff;
+	position:absolute;
+	max-height: none;
+	width: 18rem;
+	overflow: visible;
+	z-index: 2;
+	box-shadow: none;
+	font-weight: 200;
+	top:0;
+}
+
+
+.btn {
+	position:fixed;
+	top:0;
+	left:1rem;
+	z-index:3;
+	display: block;
+	padding: 1.4rem 0;
+	*margin-left: .3em;
+	cursor: pointer;
+	margin-right:0.3rem;	  
+}
+
+.icon-bar {
+	display: block;
+	width:2.6rem;
+	height:0.3rem;
+	margin-bottom: 0.5rem;
+	border-radius:0.4rem;
+	-webkit-border-radius:0.4rem;
+	 -moz-border-radius:0.4rem;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	 -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+		  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+	background-color:#151515;
+}
+
+.nav{
+	text-align:center;
+	color:#fff;
+	padding:1.6rem;
+	font-size:2rem;
+}
+
+/*****************************************
+
+			Home
+
+******************************************/
+.home{
+	position:relative;
+	padding:6rem 3rem 3rem 4.2rem;
+}
+
+.headline{
+	font-family:Candida,"Times New Roman", Times, serif;
+	font-size:3rem;
+	font-weight:bold;
+	margin-bottom:40px;
+	color:#222;
+}
+
+.aboutme{
+	width:150px;
+	height:210px;
+	margin:0 auto;
+	background-image:url(../img/about/aboutme.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:70% auto;		
+}
+
+	.aboutme-img{
+		position:relative;
+		top:125px;
+		right:-1px;
+		width:30%;
+	}
+
+/*****************************************
+
+	About Me
+
+******************************************/
+.about{
+	position:relative;
+	width:100%;
+}
+
+.about-lead-sec{
+	padding:3rem 1rem 6rem 4.2rem;
+	background-color:#232020;
+}
+
+.about-h1{
+	font-family:Candida,"Times New Roman", Times, serif;
+	font-size:2.4rem;
+	font-weight:bold;
+	margin-bottom:3rem;
+	color:#fff;
+}
+
+.about-h2{
+	margin-bottom:20px;
+	font-family:Roboto2014, "Open Sans", Verdana;
+	font-size:2.2rem;
+	font-weight:bold;
+	color:#fff;
+}
+
+.about-h3-lead{
+	font-family:Roboto2014, "Open Sans", Verdana;
+	font-size: 1.8rem;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom: 6px;
+}
+
+.about-h3{
+	font-size: 2rem;
+	font-weight:bold;
+	font-family: Roboto2014, "Open Sans", Verdana;
+	color:#151515;
+	margin-bottom: 10px;
+}
+
+.about-offer{
+	margin-left:0;
+}
+
+	.about-offer-ul1{
+		margin-bottom:30px;
+		margin-left: 2rem;	
+	}
+	
+		.about-offer-ul1 > li{
+			font-family:Candida,"Times New Roman", Times, serif;
+			font-size:1.6rem;
+			font-weight:bold;
+			color:#fff;
+			text-align:center;
+			width: 20rem;
+			margin-bottom: 3rem;
+		}
+		
+		.fa-check{
+			margin-right:4px;
+			color:#aaa;
+		}
+		
+	
+	.about-offer-ul2{
+		margin-left: 3.7rem;
+	}
+		
+		.about-offer-ul2 > li{
+			font-family:Candida,"Times New Roman", Times, serif;
+			font-size:1.6rem;
+			font-weight:bold;
+			list-style:disc;
+			color:#fff;
+		}
+
+.about-svg{
+	max-height: 100%;
+}
+
+
+.about-bg1{
+	background-color:#f4f4f4;
+}
+
+.panel-offer{
+	padding:40px 60px;
+}
+
+.about-bottom{
+	padding:3rem 1rem 3rem 4.2rem;
+}
+
+	.about-profile{
+		margin-top:20px;
+	}
+	
+		.about-h2-tools{
+			font-size:3rem;
+		}
+		
+		.about-biography{
+			padding-left:2rem;
+			font-size:1.6rem;
+			line-height: 28px;
+			color:#747474;
+			margin-bottom:36px;
+		}
+				
+		.about-screen{
+			float:right;
+			position: relative;
+		}
+		
+	.about-myself{
+		width: 14rem;
+		margin-bottom:4rem;
+	}
+
+.about-tools{
+	padding:30px 60px;
+}
+		
+.about-tools-p{
+			font-size:1.8rem;
+			line-height: 28px;
+			color:#747474;
+			margin-bottom:36px;
+}
+
+.seemywork{
+	width:150px;
+	height:164px;
+	margin:0 auto;
+	background-image:url(../img/about/seemywork.png);
+	background-repeat:no-repeat;
+	background-size:70%;
+	background-position:center;
+}
+	
+	.seemywork-img{
+		position:relative;
+		top:82px;
+		right:-3px;
+		width:30%;
+	}
+
+.showmore{
+	cursor: pointer;
+	text-align: center;
+	width:86px;
+	height:40px;
+	text-decoration:underline;
+	text-align:left;
+}
+	
+.about-hide{
+	display:none;
+}
+
+/*****************************************
+
+		Portfolio - Listpage
+
+******************************************/
+
+/*******************************
+
+	Portfolio - Common
+
+********************************/
+.portfolio{
+	width:100%;
+}
+
+.portfolio-h1{
+	font-family:Roboto2014, "Open Sans", Verdana;
+	font-size:2rem;
+	font-weight:bold;
+}
+
+.portfolio-h3{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.portfolio-i{
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.left-ubc,
+.left-nwp,
+.left-ecm,
+.left-eas{
+	width:100%;
+}
+
+.pf-nextmob{
+	padding:12px;
+	border:1px solid #333;
+	color:#333;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+.pf-nextmob-w{
+	padding:12px;
+	border:1px solid #fff;
+	color:#fff;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+.pf-left{
+	float:left;
+	width:40%;
+}
+
+.pf-right{
+	float:right;
+	width:50%;
+}
+
+/*******************************
+
+	Listpage - UBCBAJA
+
+********************************/
+.portfolio-ubc{
+	position:relative;
+	padding:1.5rem 1.5rem 1.5rem 4.2rem;
+	padding-bottom: 0;
+	background-image: url(../img/ubcbaja/ubctop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left-ubc{
+	position:relative;
+	color:#fff;
+	text-shadow:1px 1px 0 #6c6c6c;
+}
+
+.ubc-underleft{
+	margin-top:2rem;
+}
+
+.ubc-underright{
+	width:40%;
+}
+	.ubc-winner{
+		width:80%;
+		margin:0 0 2rem;
+	}
+	
+.pf-next-ubc{
+	background-color:rgba(69,66,178,0.5);
+}
+/*******************************
+
+	Listpage - Newsportal
+
+********************************/
+.portfolio-nwp{
+	position:relative;
+	padding:1.5rem 1.5rem 0 4.2rem;
+	background-color:#f1f1f1;
+	background-image:url(../img/newsportal/nwptop-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-size:cover;
+	overflow-x:hidden;	
+}
+
+.left-nwp{
+	color:#fff;
+	text-shadow:1px 1px 0 #333333;
+}
+
+.nwp-underleft{
+	margin-bottom:2rem;
+	margin-top:2rem;
+}
+
+.nwp-underright{
+	width:60%;
+}
+
+	.nwp-topimg{
+		margin-top:-20px;
+		margin-right: 31%;
+	}
+	
+.pf-next-nwp{
+	background-color:rgba(16,13,6,0.6);
+}	
+	
+/*******************************
+
+	Listpage - Ecommerce
+
+********************************/
+.portfolio-ecm{
+	position: relative;
+	padding:1.5rem 0 0 4.2rem;
+	background-image:url(../img/ecommerce/ecmtop-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	overflow-x:hidden;
+}
+
+
+.left-ecm{
+	text-shadow: 1px 1px #bdbdbd;
+}
+
+.ecm-underleft{
+	margin-top:2rem;
+}
+
+.ecm-underright{
+	width:60%;
+}
+
+.pf-next-ecm{
+	border:1px solid #ccc;
+	background-color:rgba(255,255,255,0.6);
+}
+
+.ecm-topimg{
+	position:relative;
+	margin-left:14%;
+}
+
+
+/*******************************
+
+	Listpage - ReggieKeyWatson
+
+********************************/
+.portfolio-rgk{
+	position:relative;
+	padding: 0;
+	background-color:#212121;
+	overflow:hidden;
+}
+
+	.left-rgk{
+	    background-color: #383838;
+	    overflow: hidden;
+	    -ms-transform: skew(30deg,0deg); /* IE 9 */
+	    -webkit-transform: skew(30deg,0deg); /* Chrome, Safari, Opera */
+	    transform: skew(30deg,0deg); /* Standard syntax */	    
+	}
+
+		.rgkleft-inner{
+			position: absolute;
+			top: 1.5rem;
+			left:20%;
+			z-index: 2;
+			width: 524px;
+			-ms-transform: skew(-30deg,0deg); /* IE 9 */
+			-webkit-transform: skew(-30deg,0deg); /* Chrome, Safari, Opera */
+			transform: skew(-30deg,0deg); /* Standard syntax */
+			color:#fff;
+			text-shadow:1px 1px #888888;
+		}
+
+			.rgkh1-c1{
+				color:#ffb53a;
+				font-weight:700;
+			}
+
+			.rgkh1-c2{
+				color:#fff;
+				font-weight:700;
+			}
+
+	.rgk-underright,
+	.rgk-underleft{
+		-ms-transform: skew(-30deg,0deg); /* IE 9 */
+		-webkit-transform: skew(-30deg,0deg); /* Chrome, Safari, Opera */
+		transform: skew(-30deg,0deg); /* Standard syntax */
+	}
+	
+	.rgk-underleft{
+		width:46%;
+	}
+	
+	.rgk-underright{
+		float:left;
+		margin-left: 1.2rem;
+	}
+
+		.pf-next-rgk{
+			width:60%;
+			margin-top:68%;
+			margin-left:33.2%;	
+			background-color:rgba(33,33,33,0.8);
+		}
+
+		.rgk-topimg{
+			max-width:100%;
+			margin-top: 8rem;
+		}
+
+/*******************************
+
+	Listpage - WazabiBuzz
+
+********************************/
+.portfolio-wzb{
+	position:relative;
+	padding: 1.5rem 0 0 4.2rem;
+	background-image: url(../img/wazabibuzz/wzbtop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	text-shadow:1px 1px #bebebe;
+	margin-bottom:-26px;
+}
+
+.left-wzb{
+	color:#58CA0C;
+}
+
+.pf-next-wzb{
+	color:#fff;
+	border:1px solid #fff;
+	background-color:rgba(88,202,12,0.65);
+}
+
+.wzb-underleft{
+	margin-top:2rem;
+}
+
+.wzb-underright{
+	float:left;
+	width:28%;
+	margin-left:20%;
+	position:relative;
+	bottom:26px;
+}
+
+	.wzb-top{
+		position: relative;
+		float:left;
+		width: 535px;
+		height: 520px;
+		margin-right: 100px;
+}
+
+/*******************************
+
+	Listpage - Eastasianserif
+
+********************************/
+.portfolio-eas{
+	position:relative;
+	padding: 1.5rem 0 4rem 4.2rem;
+	background-image: url(../img/eastasianserif/eastop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+}
+
+.left-eas{
+	color:#fff;
+	text-shadow:1px 1px #808080;
+}
+
+.pf-next-eas{
+	width:33%;
+	margin-top:3rem;
+	background-color:rgba(0,0,0,0.6);
+	border:1px solid #ccc;
+}
+
+/*****************************************
+
+	Portfolio - Innerpage - Common
+
+******************************************/
+.page-inner{
+	margin:0 auto;
+	padding:2rem 1rem 2rem 4.4rem;
+}
+
+.page-inner-top{
+	margin:0 auto;
+	padding:0.8rem 1rem 2rem 4.4rem;
+}
+
+.inner-content-nwp,
+.inner-content-wzb{
+	width:100%;
+	margin:0 auto;
+}
+
+.page-h1,
+.page-h2{
+	font-family:Roboto2014, "Open Sans", Verdana;
+	-webkit-font-smoothing: antialiased;
+}
+
+.page-h1{
+	font-size: 2.4rem;
+	font-weight:bold;
+	padding-bottom:0.6rem;
+	border-bottom:1px solid #adadad;
+}
+
+.page-h2{
+	font-size:2rem;
+	font-weight:bold;
+}
+
+
+.page-headdescription{
+	font-size:1.8rem;
+	padding-top:10px;
+	margin-bottom:3rem;
+	color:#747474;
+}
+
+	.page-inner > p{
+		font-size: 1.6rem;
+		line-height: 28px;
+		color:#464646;
+	}
+		
+	.description-p{
+		color:#464646;
+		margin-top:30px;
+	}
+
+	.page-viewsite{
+		margin-bottom:6rem;
+	}
+
+		.viewsite{
+			width:55%;	
+			padding:1.6rem;
+			margin:0 auto;
+			font-size:1.6rem;
+			text-align:center;
+			border:1px solid #333;
+		}
+
+	
+.bg1{
+	background-color:#f4f4f4;
+	border-top:1px solid #ddd;
+}
+
+.bg2{
+	background-color:#f9f9f9;
+	border-top:1px solid #ddd;
+}
+
+.bg-b{
+	border-bottom:1px solid #ddd;
+}
+
+.wfdescription{
+	counter-reset: item;
+}
+
+.wfdescription > li{
+	font-size: 1.6rem;
+	margin-bottom:1.4rem;
+	color:#464646;
+}
+
+	.wfdescription > li:before{
+		display: inline-block;
+		content: counter(item) "";
+		counter-increment: item;
+		color: white;
+		margin:5px 5px 0 0;
+		padding: 0 6px;
+	}
+	
+	
+.inner-p{
+	margin:30px 0;
+}
+
+.page-smartphone{
+	float:left;
+	position: relative;
+	margin-right: 60px;
+	margin-left:20px;
+	bottom: -183px;
+	width:34%;
+}
+
+.page-tablet{
+	float: left;
+	position: relative;
+	width:66%;
+}
+
+/*******************************
+
+	Innerpage - UBCBAJA
+
+********************************/
+.ubc-sec{
+	margin-bottom:30px;
+}
+
+.ubc-h1{
+	line-height:3rem;
+}
+
+.ubc-inner-rc{
+	padding-bottom:3rem;
+}
+
+	.ubc-h2{
+		margin-bottom: 5px;
+	}
+		
+	.disc-listred > li{
+		list-style:disc;
+		color: #fe0707;
+		margin-left: 30px;
+		margin-bottom:10px;
+	}
+	
+	.disc-listblue > li{
+		list-style:disc;
+		color: #4d60d5;
+		margin-left: 30px;
+		margin-bottom:10px;
+	}
+	
+		.listred-inner,
+		.listblue-inner{
+			color:#464646;
+			font-size:1.6rem;
+		}
+		
+
+.ubc-inner-h3{
+	font-size:3rem;
+	margin-bottom: 5px;
+}
+
+	.ubc-inner-h3-mockup{
+		font-size:2.6rem;
+		font-weight:bold;
+		margin-bottom: 3rem;
+	}
+	
+		.ubc-wf > li:before{
+			background-color:#FD8B3F;
+		}
+		
+.ubc-homewf{
+	margin-bottom: 30px;
+}
+
+	.ubc-homewf-img{
+		border:1px solid #e7e7e7;
+	}
+
+.ubc-sps-p{
+	margin-bottom:30px;
+}
+
+	.sps-arrow{
+		margin:30px auto;
+		-ms-transform: rotate(90deg); /* IE 9 */
+		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		transform: rotate(90deg); /* Standard syntax */
+		width:38%;
+	}
+	
+	
+	.sps-before{
+	}
+	
+	.sps-before-img,
+	.sps-after-img{
+		border:1px solid #e7e7e7;
+	}
+
+.ubc-mobile{
+	position: relative;
+}
+
+.sponsorship-wm{
+	margin:0 auto 30px;
+}
+
+.formere-chart{
+	width:600px;
+	margin:0 auto 30px;
+}
+
+.ubc-smartphone{
+	position: relative;
+	bottom: 47px;	
+}
+
+.tstmnl{
+	width:100%;
+	margin:3rem auto;
+}
+	
+	.tstmnl-left{
+		width:20%;
+		margin:0 auto 2rem;
+	}
+	
+	.tstmnl-right{
+		font-size:1.6rem;
+		color:#888;
+		margin-top:4px;
+		margin-bottom:13px;
+	}
+	
+	.tstmnl-spn{
+		font-size:1.6rem;
+		color:#888;
+	}
+
+
+/*******************************
+
+	Innerpage - Newsportal
+
+********************************/
+.nwp-h1{
+		line-height:3rem;
+	}
+
+		.nwp-img{
+			border:1px solid #e7e7e7;
+		}
+
+		.nwp-backend-login{
+			height: 500px;
+		}
+
+		.nwp-backend-loginform{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.nwp-backend-loginform > p{
+			font-size: 2rem;
+		}
+
+		.nwp-backend-loginform > label{
+			font-size: 1.8rem;
+			margin: 0;
+		}
+
+		.nwp-backend-input{
+			width: 100%;
+			height: 36px;
+			margin-bottom: 20px;
+			font-size: 1.6rem;
+			border: 1px solid #ccc;
+		}
+
+		.nwp-backend-send{
+			width: 100px;
+			height: 40px;
+			font-size: 1.4rem;
+			background-color: #41A837;
+			color: #fff;
+			border: none;
+		}
+
+		.nwp-backend-input:focus,
+		.nwp-backend-send:focus{
+			outline: none;
+		}
+/*******************************
+
+	Innerpage - Ecommerce
+
+********************************/
+.ecm-h1{
+	border-bottom: 1px solid #adadad;
+}
+
+.ecm-h2{
+	margin-bottom:5px;
+}
+
+.ecm-wfpd-wrap{
+	border-bottom:none;
+}
+	
+	.ecm-wf-pd > li:before,
+	.ecm-wf-home > li:before{
+			background-color:#50a4c7;
+		}
+	
+	.ecm-productwf-img,
+	.ecm-productmu-img,
+	.ecm-homemu-img{
+		border:1px solid #e7e7e7;
+	}
+
+.ecm-homewf-img{
+	border:1px solid #e7e7e7;
+}
+
+/*******************************
+
+	Innerpage - Reggiekeywatson
+
+********************************/
+.disclaimer-p{
+	margin-top:30px;
+	color:#464646;
+	font-size:1.8rem;
+}
+
+.rgk-mockup{
+	margin-left:20px;
+}
+
+.rgk-mockup > li{
+	list-style:disc;
+	font-size: 1.8rem;
+}
+
+/*******************************
+
+	Innerpage - WazabiBuzz
+
+********************************/
+.inner-sec-wzbtop{
+	width:100%;
+	padding-top: 30px;
+}
+
+	.inner-sec-wzb{
+		padding:3rem 6rem 6rem;
+	}
+	
+	.wzb-p{
+		margin:20px 0;
+		font-size: 1.8rem;
+		text-align: center;
+		line-height:28px;
+	}
+	
+.wzb-mobnav{
+	float:none;
+	bottom:0;
+	margin:0 auto;
+}
+	
+.inner-wzb-sphimg{
+	}
+
+.wzb-wf,
+.wzb-wfcode{
+	margin-bottom:3rem;
+}
+
+	.wzb-wf-img,
+	.wzb-code-img{
+		border: 1px solid #e7e7e7;
+	}
+				
+/*******************************
+
+	Innerpage - Typography
+
+********************************/
+.eas-h1{
+	margin-bottom:0;
+}
+
+.inner-content-typ{
+	padding-top:30px;
+}
+
+.eas-content{
+	background:url(../img/eastasianserif/sakura.png) no-repeat scroll -10px 20.6%;
+	background-size:62%;
+}
+
+.eas-h2,
+.showcase-h2{
+	font-size:2.4rem;
+	margin-bottom: 2rem;
+}
+	
+	.eas-showcase{
+		position:relative;
+		bottom:130px;
+	}
+
+.eas-fp{
+	width:100%;
+	margin:20px 0 50px;
+}
+	
+.eas-cp{
+	width:100%;
+	margin:20px 0;
+}
+
+.eas-clg{
+	margin-top:6rem;
+}
+	
+.easprocess-img{
+	margin:0 auto;
+	margin-bottom: 30px;
+}	
+
+.easpoint{
+	margin:0 auto;
+	width:900px;
+}
+
+.showcase{
+	margin:0 auto 3rem;
+	border:1px solid #e7e7e7;
+}
+
+/*****************************************
+
+	Contact Me
+
+******************************************/
+.contact{
+	padding:0 1rem 4rem 4.2rem;
+	background-color:#232020;
+	text-align:center;
+}
+
+.contact-h2{
+	padding:1.5rem 0;
+	font-size: 2rem;
+	font-weight:700;
+	font-family:Candida,"Times New Roman", Times, serif;
+	color:#fff;
+	text-align:center;
+}
+
+.cnt-back{
+	left:20px;
+	margin:0;
+}
+
+	.contact-input,
+	.contact-txtarea{
+		width:96%;
+		padding: 6px;
+		font-size: 1.6rem;
+		border: 1px solid #ccc;
+	}
+
+	.contact-input{
+		height:2.6rem;
+		margin-bottom:3rem;
+	}
+
+	.contact-txtarea{
+		height:10rem;	
+		margin-bottom:2rem;
+	}
+
+	.contact-input:focus,
+	.contact-txtarea:focus{
+		outline: none;
+	}
+
+	.contact-label{
+		display:block;
+		font-size: 1.6rem;
+		font-weight:600;
+		color:#fff;
+	}
+
+.contact-input:focus{
+	outline:none;
+}
+
+
+.submit{
+	width:11rem;
+	height: 3rem;
+	background-color:#F75959;
+	border: none;
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 100;
+	cursor:pointer;
+}	
+
+	.submit:focus{
+		border: none;
+		outline: none;
+	}
+
+.success,
+.error{
+	font-size: 1.6rem;
+	font-style:italic;
+	color:#fff;
+	margin-bottom:2rem;
+}
+
+#sending{
+	position:fixed;
+	top:50%;
+	left:45%;
+	width:8rem;
+	height:8rem;
+	line-height:8rem;
+	background-color:#fff;
+	font-size:1.2rem;
+	text-align:center;
+	text-transform:uppercase;
+	z-index:2;
+	border-radius: 50%;
+	visibility:hidden;
+}
+
+#sending:after{
+	content:"";
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	width: 8rem;
+	height: 8rem;
+	border: 10px solid #FD6262;
+	border-right-color: transparent;
+	border-radius: 50%;
+	box-shadow: 0 0 25px 2px #2e2e2e;
+	animation: spin 1s linear infinite;
+	-webkit-animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin
+{
+	from { -webkit-transform: rotate(0deg);}
+	50%  { -webkit-transform: rotate(180deg);}
+	to   { -webkit-transform: rotate(360deg);}
+}
+
+
+@keyframes spin
+{
+	from { transform: rotate(0deg); }
+	50%  { transform: rotate(180deg);}
+	to   { transform: rotate(360deg);}
+}
+
+/***************************************************
+
+	Responsive
+
+****************************************************/
+@media (min-width: 333px){
+	.wzb-underleft{
+		margin-top:4rem;
+	}
+	
+	.wzb-underright{
+		position:static;
+		bottom:0;
+	}
+}
+@media (min-width: 340px){
+	.eas-content{
+		background:url(../img/eastasianserif/sakura.png) no-repeat scroll -10px 19.4%;
+		background-size:62%;
+	}
+}
+
+@media (min-width: 400px){
+	.headline{
+		font-size:4rem;
+	}
+			
+	.about-myself{
+		width:40%;
+	}
+		
+	.pf-nextmob-w{
+		font-size:1.4rem;
+	}
+	
+		.rgkleft-inner{
+			left:7.6rem;
+		}
+		
+		.pf-next-rgk{
+			margin-top:53%;
+			margin-left:5.6rem;
+		}
+		
+	.viewsite{
+		width:22rem;	
+		padding: 2rem;
+		font-size:1.8rem;
+	}
+	.ubc-winner{
+		margin: 0 0 3rem;
+	}
+	.nwp-topimg{
+		margin-right:23%;
+	}
+	
+	.eas-content{
+		background:url(../img/eastasianserif/sakura.png) no-repeat scroll -10px 18.4%;
+		background-size:57%;
+	}
+}
+
+@media (min-width: 480px){
+	.icon-bar {
+		width:3.2rem;
+		height:0.5rem;
+	}
+	
+	/***home***/
+	.home{
+		padding:6rem 5rem 3rem;
+	}
+	
+		.headline{
+			font-size:4.6rem;
+		}
+		
+	.aboutme{
+		background-size:80% auto;
+	}
+	
+	.aboutme-img{
+		top:128px;
+		right:-2px;
+	}
+	/***about***/
+	.about-lead-sec{
+		padding:3rem 3rem 6rem 5rem;
+	}
+	
+		.about-h1{
+			font-size:3rem;
+		}
+		
+		.about-h2{
+			font-size:2.6rem;
+		}
+		
+		.about-h3-lead{
+			font-size:2.2rem;
+		}
+		
+		.about-offer{
+			margin-left:2.6rem;
+		}
+		
+			.about-offer-ul1{
+				margin-left: 2rem;
+			}
+		
+				.about-offer-ul1 > li{
+					float:left;
+					width:24rem;
+					font-size:2rem;
+					margin:0 3rem 3rem 0;
+					
+				}
+				
+			.about-offer-ul2{
+				margin-left: 6.7rem;
+			}
+				
+				.about-offer-ul2 > li{
+					font-size:2rem;
+				}
+		
+		.about-bottom{
+			padding:3rem 1rem 6rem 5rem;
+		}
+			
+			.about-biography{
+				font-size:1.8rem;
+				padding-left:3rem;
+			}
+			
+			.about-myself{
+				width:37%;
+			}
+	.seemywork{
+		background-size:80%;
+	}	
+	
+	.seemywork-img{
+		top:80px;
+		right:-3px;
+	}
+	
+	.showmore{
+		width:96px;
+	}
+	/***portfolio***/
+	.pf-next,
+	.pf-next-w{
+		width:13rem;
+	}
+	
+	.pf-nextmob,
+	.pf-nextmob-w{
+		padding:17px;
+	}
+	.pf-next-img{
+		top:4rem;
+	}
+	
+	.portfolio-h1{
+		font-family:Roboto2014, "Open Sans", Verdana;
+		font-size:3.6rem;
+		font-weight:bold;
+	}
+	
+	.portfolio-h3{
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+	
+	.portfolio-i{
+		font-size: 1.2rem;
+		font-weight: 100;
+	}
+	
+	.portfolio-ubc,
+	.portfolio-nwp{
+		padding:1.5rem 3rem 0 5rem;
+	}
+	/***ubcbaja***/
+	.ubc-winner{
+		width:auto;
+	}
+	.ubc-winner{
+		margin:0 0 4rem;
+	}
+	/***ecommerce***/
+	.portfolio-ecm{
+		padding:1.5rem 0 0 5rem;
+	}
+	/***reggiekey***/
+	.left-rgk{
+		/*width: 90%;*/
+	}
+	.rgkleft-inner{
+		top:1.5rem;
+		left:8.4rem;
+	}
+	.pf-next-rgk{
+		margin-left:6rem;
+	}
+	.rgk-topimg{
+		margin-top: 9.6rem;
+	}
+		
+	/***wazabibuzz/typography***/
+	.portfolio-wzb{
+		padding:1.5rem 0 0 5rem;
+	}
+	
+	.portfolio-wzb{
+		margin:0;
+	}
+	.wzb-underright{
+		margin-left:12%;
+	}
+	
+	.portfolio-eas{
+		padding:1.5rem 0 10rem 5rem;
+	}
+
+	/***portfolio-inner***/
+	.page-headdescription{
+		margin-bottom:4.5rem;
+	}	
+	
+	.page-inner{
+		padding:3rem 1.5rem 3rem 5rem;
+	}
+	
+	.page-inner-top{
+		padding:1rem 1.5rem 3rem 5rem;
+	}
+	
+	.page-inner > p{
+		font-size:1.8rem;
+	}
+	
+	.page-h1{
+		font-size:3rem;
+		padding-bottom:1.3rem;
+		line-height:3rem;
+	}
+	
+	.page-h2,
+	.ubc-inner-h3-mockup{
+		font-size:2.4rem;
+	}
+		
+	/***ubcbaja***/
+	.wfdescription > li:before{
+		padding: 0 8px;
+	}
+	
+	.tstmnl-right{
+		font-size:1.8rem;
+	}
+	/***newsportal***/
+	.nwp-backend-loginform > p{
+		font-size: 2.6rem;
+	}
+	/***wazabibuzz***/
+	.wzb-wf,
+	.wzb-wfcode{
+		margin-bottom:60px;
+	}
+	.wzb-underleft{
+		margin-top:6rem;	
+	}
+	/***typography***/
+	.eas-content{
+		background:url(../img/eastasianserif/sakura.png) no-repeat scroll -10px 17.7%;
+		background-size:57%;
+	}
+	.showcase-h2{
+		font-size:3rem;
+		margin-bottom:3rem;
+	}
+	
+	/***contact***/
+	.contact{
+		padding:3rem 5rem;
+	}
+	
+	.contact-form{
+		margin:0 auto 5rem;
+	}
+
+	.contact-h2{
+		font-size:2.6rem;
+	}
+	
+	.contact-label{
+		font-size:2rem;
+	}
+	
+	.submit{
+		height: 4rem;
+	}
+	
+	.success,
+	.error{
+		font-size: 2rem;
+	}
+}
+
+
+@media (min-width: 600px){
+		.headline{
+			font-size:5rem;
+		}
+	
+	.about-offer{
+		margin-left:85px;
+	}
+	
+		.about-h1{
+			font-size:4rem;
+			font-weight:bold;
+		}
+		
+		.about-myself{
+			width:18rem;
+			margin-bottom:7rem;
+		}
+		
+		.about-bottom{
+			padding:60px 60px 100px 130px;
+		}
+	
+	.portfolio-h1{
+		font-size:4rem;
+	}
+	
+	.pf-nextmob,
+	.pf-nextmob-w{
+		font-size:1.6rem;
+	}
+	/***portfolio-inner***/
+	.page-h1{
+		font-size:4rem;
+		line-height:4rem;
+	}
+	
+	.page-inner-top{
+		padding:0.8rem 6rem 4rem;
+	}
+	/***ubcbajba***/
+	.ubc-winner{
+		margin:0 0 6rem;
+	}
+	/***newsportal***/
+	.nwp-underleft{
+		margin-top:4rem;
+	}
+	.nwp-backend-loginform{
+		width:400px;
+	}
+	.nwp-backend-loginform > p{
+		font-size: 3rem;
+	}
+	.nwp-topimg{
+		margin-right:19%;
+	}
+	/***ecommerce***/
+	.ecm-underleft{
+		margin-top:4rem;
+	}
+	/***reggiekey***/
+	.rgkleft-inner{
+		left:9.8rem;
+	}
+	pf-next-rgk{
+		margin-left:24.2%;
+	}
+	.rgk-topimg{
+		margin-top: 10.2rem;
+	}	
+	/***typography***/
+	.portfolio-eas{
+		padding: 1.5rem 0 10rem 4.2rem;
+	}
+	
+	.eas-content{
+		background:url(../img/eastasianserif/sakura.png) no-repeat scroll -10px 16.4%;
+		background-size:45%;
+	}
+	/***contact***/
+	.contact-h2{
+		font-size:3rem;
+	}
+	
+}
+
+@media (min-width: 725px){
+	/***home***/
+	.headline{
+		font-size:6rem;
+	}
+	
+	.aboutme{
+		background-size:90% auto;
+	}
+	
+	.aboutme-img{
+		top:130px;
+		right:-4px;
+	}
+	/***about***/
+	.seemywork{
+		background-size:90% auto;
+	}	
+	
+	.seemywork-img{
+		top:80px;
+		right:-3px;
+	}	
+
+	/***portfolio-inner***/
+	.page-headdescription{
+		margin-bottom:4.5rem;
+	}	
+	
+	.page-inner{
+		padding:3rem 5rem;
+	}
+	
+	.page-inner > p{
+		font-size:1.8rem;
+	}
+	
+	.page-inner-top{
+		padding:0.6rem 5rem 4rem;
+	}
+	
+	.page-h1{
+		font-size:4.6rem;
+		line-height:4.6rem;
+	}
+		
+	.pf-next-img{
+		width:auto;
+	}
+	.portfolio-wzb{
+		position:relative;
+	}
+	
+	.left-wzb{
+		color:#58CA0C;
+	}
+	
+	.pf-next,
+	.pf-next-w{
+		right:1rem;
+	}
+	
+	.portfolio-ubc,
+	.portfolio-nwp{
+		padding:3rem 3rem 0 5rem;
+	}
+			
+	.portfolio-ecm{
+		padding:3rem 0 0 5rem;
+	}
+	
+	.rgkleft-inner{
+		top:3rem;
+		left:22%;
+	}
+	
+	.portfolio-wzb{
+		padding: 3rem 0 0 5rem;
+	}
+	
+	.portfolio-eas{
+		padding: 3rem 0 13rem 5rem;
+	}
+	/***portfolio-inner***/	
+	.listred-inner,
+	.listblue-inner,
+	.wfdescription > li{
+		font-size:1.8rem;
+	}
+	
+	.description-p{
+		font-size:1.8rem;
+	}
+	/***ubcbaja***/	
+	.tstmnl-left{
+		float:left;
+		width:16%;
+		margin:0;
+	}
+	
+	.tstmnl-right{
+		float:left;
+		width:81.2%;
+		padding-left:15px;
+	}
+	/***reggiekey***/
+	.pf-next-rgk{
+		margin-left:7rem;
+	}
+	.rgkleft-inner{
+		left:9.4rem
+	}
+	/***ecommerce***/
+	.ecm-wf-pd > li{
+		float: left;
+		width: 50%;
+	}
+	.ecm-wf-home{
+		float:left;
+		width:38%;
+	}
+	
+	.ecm-homewf-img{
+		float:right;
+		width:60%;
+	}
+
+	/***wazabibuzz***/
+	.wzb-topimg{
+		position:relative;
+		bottom:50px;
+	}
+	.wzb-underright{
+		margin-bottom: -50px;
+	}	
+	/***typography***/
+	.eas-content{
+		background:url(../img/eastasianserif/sakura.png) no-repeat scroll -10px 17%;
+		background-size:50%;
+	}
+	
+	/***contact***/
+	.contact-h2{
+		font-size:3.6rem;
+	}	
+	
+	.contact-input{
+		height:3.6rem;
+	}
+
+	.contact-txtarea{
+		height:20rem;	
+	}
+	
+}
+
+@media (min-width: 765px){
+	.btn{
+		left:1.5rem;
+	}
+	
+	/****home****/	
+	.home{
+		padding:9rem 6rem 6rem;
+	}
+	
+	.headline{
+		font-size:7rem;
+	}
+	/****about****/	
+	.about-lead-sec{
+		padding:6rem 3rem 10rem 6rem;
+	}	
+	.about-h1{
+		font-size:4.6rem;
+		margin-bottom:6rem;
+	}
+	
+	.about-h2{
+		font-size:3.6rem;
+	}
+	
+	.about-h3-lead{
+		font-size:3rem;
+	}
+	
+	.about-h3{
+		font-size:2.8rem;
+	}
+	
+	.about-offer-ul1 > li{
+		width:24rem;
+		font-size:2rem;
+		margin:0 3rem 3rem 0;
+	}
+	
+	.about-offer-ul2 > li{
+		font-size:2.2rem;
+	}
+	
+	.about-biography{
+		padding-right:90px ;
+	}
+	
+	.pf-next,
+	.pf-next-w{
+		background-size:100%;
+	}
+	
+	/****portfolio****/	
+	.pf-next,
+	.pf-next-w{
+		width:15rem;
+		right:3rem;
+	}
+	
+	.portfolio-h1{
+		font-size:5rem;
+	}
+	
+	.portfolio-h3{
+		font-size:1.8rem;
+	}
+	
+	.portfolio-i{
+		font-size: 1.4rem;
+	}
+	
+	.portfolio-ubc,
+	.portfolio-nwp{
+		padding:3rem 3rem 0 6rem;
+	}
+	.pf-nextmob,
+	.pf-nextmob-w{
+		width:20rem;
+	}
+	/***ubcbaja***/
+	.ubc-winner{
+		width:auto;
+	}
+	/***reggiekey***/
+	.rgkleft-inner{
+		left: 12.4rem;
+	}
+	.pf-next-rgk{
+		margin-left:29.2%;
+	}
+	.rgk-topimg{
+		margin-top:140px;
+	}
+		
+	.portfolio-ecm,
+	.portfolio-wzb{
+		padding:3rem 0 0 6rem
+	}
+	/***ecommerce***/
+	.ecm-underleft{
+		margin-top:6rem;
+	}
+	/***typograpohy***/
+	.portfolio-eas{
+		padding:3rem 0 16rem 6rem
+	}
+	
+	.pf-next-eas{
+		margin-top:5rem;
+	}
+
+	/***portfolio-inner***/
+	.page-headdescription{
+		margin-bottom:6rem;
+	}	
+	
+	.page-inner{
+		padding:4rem 6rem;
+	}
+	
+	.page-inner-top{
+		padding:0.6rem 6rem 4rem;
+	}
+		.page-h1{
+			font-size:5rem;
+		}
+		
+		.page-h2,
+		.ubc-inner-h3-mockup{
+			font-size:3rem;
+		}
+	/***ubcbaja***/
+	.ubc-h1{
+		line-height:5rem;
+	}
+		
+	.ubc-inner-left{
+		float:left;
+		width:50%;
+	}
+
+	.ubc-inner-right{
+		float:left;
+		width:50%;
+	}
+	
+	.ubc-wf{
+		float: left;
+		width: 46%;
+	}
+
+	.ubc-inner-h3-mockup{
+		font-size:2rem;
+		margin-bottom:6rem;
+	}
+	
+	.ubc-homewf-img{
+		float: right;
+		width:53%;
+	}
+	
+	.ubc-inner-rc{
+		margin-bottom:7rem;
+	}
+		
+	.tstmnl{
+		margin:6rem auto;
+	}
+	
+	.tstmnl-right{
+		font-size:2rem;
+		width:77.4%;
+	}
+	
+	.tstmnl-left{
+		padding-right:15px;
+	}
+	/***reggiekey***/
+	.rgkleft-inner{
+		left:16%;
+	}
+	.pf-next-rgk{
+		margin-left:11.4rem;
+	}
+	
+	/***ecommerce***/
+	.ecm-wfpd{
+		padding:60px;
+	}
+	.ecm-last{
+		margin-bottom:100px;
+	}
+	/***wazabibuzz***/
+	.wzb-wf,
+	.wzb-code{
+		float:left;
+	}
+		
+	.wzb-wf{
+		width:50%;
+		padding-right:15px;
+		margin-bottom:0;
+	}
+	
+	.wzb-code{
+		width:45%;
+		padding-left:15px;
+	}
+	/***typography***/
+	.eas-h1{
+		width:83%;
+	}
+	.showcase-h2{
+		font-size:3rem;
+		margin-bottom:3rem;
+	}
+	.eas-h2{
+		font-size:4rem
+	}
+	.showcase-h2{
+		font-size:4rem;
+		margin-bottom:4rem;
+	}
+	.eas-content{
+		margin-bottom: 100px;
+		background:
+			url(../img/eastasianserif/crane.png)  no-repeat right 10px top 10px,
+			url(../img/eastasianserif/sakura.png) no-repeat -10px 17%;
+	}
+	
+	.eas-clg{
+		margin-top:150px;
+	}
+	
+	.showcase{
+		margin:0 auto 6rem;
+	}
+	/***contact***/
+	.contact{
+		padding:3rem 6rem;
+	}
+	
+	.contact-h2{
+		font-size:4rem;
+	}
+	
+	.contact-form,
+	.contact-input,
+	.contact-txtarea{
+		width: 60rem;
+	}
+	
+	.submit{
+		width:14rem;
+	}
+	
+	#sending{
+		width:9rem;
+		height:9rem;
+		line-height:9rem;
+		font-size:1.4rem;
+	}
+	
+	#sending:after{
+		width:9rem;
+		height:9rem;
+	}
+}
+
+@media (min-width: 900px) {
+	.headline{
+		font-size:8rem;
+	}
+	
+	.sps-before,
+	.sps-arrow{
+		float:left;
+	}
+	
+	.sps-before{
+		width:40%;
+	}
+	
+	.sps-arrow{
+		width:10%;
+		margin:180px 0 0 0;
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg); /* Standard syntax */
+	}
+	
+	.sps-after{
+		float:left;
+		width:50%;
+	}
+	.ecm-underleft{
+		margin-top:10rem;
+	}
+	.rgkleft-inner{
+		left:13rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	/***aobut***/
+	.about-myself{
+		width:18rem;
+	}
+	/***portfolio-inner***/
+	.page-h1{
+		font-size:6rem;
+	}
+	
+	.page-h2,
+	.ubc-inner-h3-mockup{
+		font-size:3rem;
+	}
+	/***ubcbaja***/
+	.ubc-h1{
+		line-height:6rem;
+	}
+	
+	.tstmnl-right{
+		margin-top:1rem;
+	}
+	
+	/***newsportal***/
+	.nwp-h1{
+		line-height:5.4rem;
+	}
+	/***ecommerce***/
+	.ecm-h1{
+		line-height:5.6rem;
+	}
+	/***reggiekey***/
+	.rgkleft-inner{
+		left:14rem;
+	}
+	.pf-next-rgk{
+		margin-left:9.4rem;
+	}
+	.rgk-h1{
+		line-height:5rem;
+	}
+	/***wazabibuzz***/
+	.wzb-h1{
+		line-height:5rem;
+	}
+	.wzb-imgwrp{
+		width:auto;
+	}
+	/***typography***/
+	.portfolio-eas{
+		height:30rem;
+	}
+	
+	.eas-h1{
+		line-height:5.3rem;
+		width:90%;
+	}
+	.eas-fp{
+		width:1000px;
+	}
+		
+	.eas-cp{
+		width:1000px;
+	}
+
+}
+
+@media (min-width: 1100px) {
+	.about-h1{
+		font-weight:bold;
+		width:1000px;
+		margin-bottom:9rem;
+	}
+	
+	.about-bottom{
+		padding:6rem 6rem 6rem 13rem;
+	}
+		
+	.about-biography{
+		width:600px ;
+	}
+	
+	.about-myself{
+		margin-top:120px;
+	}
+	
+	.portfolio-h1{
+		font-size:6rem;
+	}
+			
+	.eas-content{
+		margin-bottom:10rem;
+		background:
+			url(../img/eastasianserif/crane.png) right 10px top 10px no-repeat,
+			url(../img/eastasianserif/sakura.png) -10px 1000px no-repeat;
+	}
+
+	.portfolio-eas{
+		height:44rem;
+	}
+}
+
+/*****************************************
+
+			clearfix(hack.css)
+
+******************************************/
+
+.cf:after, clearfix:before{
+    content: " ";
+    display: table;    
+}
+
+.cf:after{  
+    clear:both;
+}
+
+.cf{
+    *zoom:1; /*fixes container behavior in ie 6*/
+    /*for hack of IE6*/
+}
+
+/***************************************************
+****************************************************/
+/*****************************************
+******************************************/
+/*******************************
+********************************/
+/*********************
+**********************/
