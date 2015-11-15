@@ -102,6 +102,18 @@
             </div>
             <div id="portfolio" class="panel" data-number="3">
                 <div class="portfolio">
+                    <section class="portfolio-gzt" id="portfolio-gzt" data-background="http://toruinamoto.com/img/gazettemag/gazettemag-bg.jpg">
+                        <a class="cf left-gzt" href="gazettemag.php">
+                            <h1 class="portfolio-h1">Gazette Magazine</h1>
+                            <h3 class="portfolio-h3">Art &amp; Culture Web magazine design renewal</h3>
+                            <i class="portfolio-i">Interface Design &amp; Frontend/Wordpress Development</i>
+                        </a>
+                        <div class="gzt-underleft">
+                            <a href="gazettemag.php" class="pf-nextmob-w pf-next-gzt">
+                               View Project
+                            </a>
+                        </div>
+                    </section>
                     <section class="portfolio-ubc" id="portfolio-ubc" data-background="http://toruinamoto.com/img/ubcbaja/ubctop-bg.jpg">
                         <a class="cf left-ubc" href="ubcbaja.php">
                             <h1 class="portfolio-h1">UBC BAJA Website Contest</h1>
