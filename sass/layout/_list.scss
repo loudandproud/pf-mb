@@ -1,0 +1,322 @@
+
+/*****************************************
+
+		Portfolio - Listpage
+
+******************************************/
+
+/*******************************
+
+	Portfolio - Common
+
+********************************/
+.portfolio{
+	width:100%;
+}
+
+.portfolio-h1{
+	font-family:$portfolio-font-family;
+	font-size:2rem;
+	font-weight:bold;
+}
+
+.portfolio-h3{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.portfolio-i{
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.left-ubc,
+.left-nwp,
+.left-ecm,
+.left-eas{
+	width:100%;
+}
+
+.pf-nextmob{
+	padding:12px;
+	border:1px solid #333;
+	color:#333;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+.pf-nextmob-w{
+	padding:12px;
+	border:1px solid #fff;
+	color:#fff;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+.pf-left{
+	float:left;
+	width:40%;
+}
+
+.pf-right{
+	float:right;
+	width:50%;
+}
+
+/*******************************
+
+	Listpage - UBCBAJA
+
+********************************/
+.portfolio-ubc{
+	position:relative;
+	padding:1.5rem 1.5rem 1.5rem 4.2rem;
+	padding-bottom: 0;
+	background-image: url(img/ubcbaja/ubctop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left-ubc{
+	position:relative;
+	color:#fff;
+	text-shadow:1px 1px 0 #6c6c6c;
+}
+
+.ubc-underleft{
+	margin-top:2rem;
+}
+
+.ubc-underright{
+	width:40%;
+}
+	.ubc-winner{
+		width:80%;
+		margin:0 0 2rem;
+	}
+	
+.pf-next-ubc{
+	background-color:rgba(69,66,178,0.5);
+}
+/*******************************
+
+	Listpage - Newsportal
+
+********************************/
+.portfolio-nwp{
+	position:relative;
+	padding:1.5rem 1.5rem 0 4.2rem;
+	background-color:#f1f1f1;
+	background-image:url(img/newsportal/nwptop-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-size:cover;
+	overflow-x:hidden;	
+}
+
+.left-nwp{
+	color:#fff;
+	text-shadow:1px 1px 0 #333333;
+}
+
+.nwp-underleft{
+	margin-bottom:2rem;
+	margin-top:2rem;
+}
+
+.nwp-underright{
+	width:60%;
+}
+
+	.nwp-topimg{
+		margin-top:-20px;
+		margin-right: 31%;
+	}
+	
+.pf-next-nwp{
+	background-color:rgba(16,13,6,0.6);
+}	
+	
+/*******************************
+
+	Listpage - Ecommerce
+
+********************************/
+.portfolio-ecm{
+	position: relative;
+	padding:1.5rem 0 0 4.2rem;
+	background-image:url(img/ecommerce/ecmtop-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	overflow-x:hidden;
+}
+
+
+.left-ecm{
+	text-shadow: 1px 1px #bdbdbd;
+}
+
+.ecm-underleft{
+	margin-top:2rem;
+}
+
+.ecm-underright{
+	width:60%;
+}
+
+.pf-next-ecm{
+	border:1px solid #ccc;
+	background-color:rgba(255,255,255,0.6);
+}
+
+.ecm-topimg{
+	position:relative;
+	margin-left:14%;
+}
+
+
+/*******************************
+
+	Listpage - ReggieKeyWatson
+
+********************************/
+.portfolio-rgk{
+	position:relative;
+	padding: 0;
+	background-color:#212121;
+	overflow:hidden;
+}
+
+	.left-rgk{
+	    background-color: #383838;
+	    overflow: hidden;
+	    -ms-transform: skew(30deg,0deg); /* IE 9 */
+	    -webkit-transform: skew(30deg,0deg); /* Chrome, Safari, Opera */
+	    transform: skew(30deg,0deg); /* Standard syntax */	    
+	}
+
+		.rgkleft-inner{
+			position: absolute;
+			top: 1.5rem;
+			left:20%;
+			z-index: 2;
+			width: 524px;
+			-ms-transform: skew(-30deg,0deg); /* IE 9 */
+			-webkit-transform: skew(-30deg,0deg); /* Chrome, Safari, Opera */
+			transform: skew(-30deg,0deg); /* Standard syntax */
+			color:#fff;
+			text-shadow:1px 1px #888888;
+		}
+
+			.rgkh1-c1{
+				color:#ffb53a;
+				font-weight:700;
+			}
+
+			.rgkh1-c2{
+				color:#fff;
+				font-weight:700;
+			}
+
+	.rgk-underright,
+	.rgk-underleft{
+		-ms-transform: skew(-30deg,0deg); /* IE 9 */
+		-webkit-transform: skew(-30deg,0deg); /* Chrome, Safari, Opera */
+		transform: skew(-30deg,0deg); /* Standard syntax */
+	}
+	
+	.rgk-underleft{
+		width:46%;
+	}
+	
+	.rgk-underright{
+		float:left;
+		margin-left: 1.2rem;
+	}
+
+		.pf-next-rgk{
+			width:60%;
+			margin-top:68%;
+			margin-left:33.2%;	
+			background-color:rgba(33,33,33,0.8);
+		}
+
+		.rgk-topimg{
+			max-width:100%;
+			margin-top: 8rem;
+		}
+
+/*******************************
+
+	Listpage - WazabiBuzz
+
+********************************/
+.portfolio-wzb{
+	position:relative;
+	padding: 1.5rem 0 0 4.2rem;
+	background-image: url(img/wazabibuzz/wzbtop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+	text-shadow:1px 1px #bebebe;
+	margin-bottom:-26px;
+}
+
+.left-wzb{
+	color:#58CA0C;
+}
+
+.pf-next-wzb{
+	color:#fff;
+	border:1px solid #fff;
+	background-color:rgba(88,202,12,0.65);
+}
+
+.wzb-underleft{
+	margin-top:2rem;
+}
+
+.wzb-underright{
+	float:left;
+	width:28%;
+	margin-left:20%;
+	position:relative;
+	bottom:26px;
+}
+
+	.wzb-top{
+		position: relative;
+		float:left;
+		width: 535px;
+		height: 520px;
+		margin-right: 100px;
+}
+
+/*******************************
+
+	Listpage - Eastasianserif
+
+********************************/
+.portfolio-eas{
+	position:relative;
+	padding: 1.5rem 0 4rem 4.2rem;
+	background-image: url(img/eastasianserif/eastop-bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	background-position: center center;
+}
+
+.left-eas{
+	color:#fff;
+	text-shadow:1px 1px #808080;
+}
+
+.pf-next-eas{
+	width:33%;
+	margin-top:3rem;
+	background-color:rgba(0,0,0,0.6);
+	border:1px solid #ccc;
+}

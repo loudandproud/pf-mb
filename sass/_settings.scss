@@ -1,0 +1,54 @@
+//$body-font-family:"Open Sans", Verdana, Geneva, sans-serif;
+$body-font-family:"NeuzeitGro", "Open Sans", Verdana, Geneva, sans-serif;
+$title-font-family:Candida,TimesNewRoman, sans-serif;
+$portfolio-font-family:"NeuzeitGro", Roboto2014, "Open Sans", Verdana, sans-serif;
+// $portfolio-font-fmialy: Roboto2014, "Open Sans", Verdana, sans-serif;
+//$portfolio-font-title:Roboto2014, "Open Sans", Verdana, sans-serif;
+
+@mixin font-face{
+
+
+	@font-face {
+		font-family:Candida;
+		src:url(fonts/CandidaStd-Roman.otf);
+	}
+
+	@font-face {
+		font-family:Candida;
+		font-weight:bold;
+		src:url(fonts/CandidaStd-Bold.otf);
+	}
+
+	@font-face {
+		font-family:Roboto2014;
+		src:url(fonts/Roboto-Regular.ttf);
+	}
+
+	@font-face {
+		font-family:Roboto2014;
+		font-weight:100;
+		src:url(fonts/Roboto-Light.ttf);
+	}
+
+	@font-face {
+		font-family:Roboto2014;
+		font-weight:800;
+		src:url(fonts/Roboto-Bold.ttf);
+	}
+
+	@font-face {
+		font-family:Gurmukh;
+		src:url(fonts/GurmukhiMN.ttf);
+	}
+
+	@font-face {font-family: 'NeuzeitGro';font-weight:800;src: url('webfonts/2FA093_0_0.eot');src: url('webfonts/2FA093_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FA093_0_0.woff2') format('woff2'),url('webfonts/2FA093_0_0.woff') format('woff'),url('webfonts/2FA093_0_0.ttf') format('truetype');}
+ 
+	@font-face {font-family: 'NeuzeitGro';src: url('webfonts/2FA093_1_0.eot');src: url('webfonts/2FA093_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FA093_1_0.woff2') format('woff2'),url('webfonts/2FA093_1_0.woff') format('woff'),url('webfonts/2FA093_1_0.ttf') format('truetype');}
+
+}
+
+@mixin body-font{
+	font-size:22px;
+	line-height:28px;
+}
+

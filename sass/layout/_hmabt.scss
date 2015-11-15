@@ -1,0 +1,216 @@
+/*****************************************
+
+			Home
+
+******************************************/
+.home{
+	position:relative;
+	padding:6rem 1rem 3rem 5rem;
+}
+
+.headline{
+	font-family:$title-font-family;
+	font-size:3rem;
+	line-height: 4rem;
+	font-weight:bold;
+	margin-bottom:40px;
+	color:#222;
+}
+
+.aboutme{
+	width:150px;
+	height:210px;
+	margin:0 auto;
+	background-image:url(img/about/aboutme.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:70% auto;		
+}
+
+	.aboutme-img{
+		position:relative;
+		top:125px;
+		right:-1px;
+		width:30%;
+	}
+
+/*****************************************
+
+	About Me
+
+******************************************/
+.about{
+	position:relative;
+	width:100%;
+}
+
+.about-lead-sec{
+	padding:3rem 1rem 6rem 0;
+	background-color:#232020;
+}
+
+.about-h1{
+	font-family:$title-font-family;
+	font-size:3rem;
+	line-height:4rem;
+	font-weight:bold;
+	margin-bottom:3rem;
+	margin-left:5rem;
+	color:#fff;
+}
+
+.about-h2{
+	// margin-bottom:20px;
+	// margin-left:4.2rem;
+	width:20rem;
+	margin: 0 auto 2rem;
+	font-family:$portfolio-font-family;
+	font-size:2.8rem;
+	font-weight:bold;
+	color:#fff;
+}
+
+.about-h3-lead{
+	font-family:$portfolio-font-family;
+	font-size: 1.8rem;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom: 0.6rem;
+	margin-left:5rem;
+}
+
+.about-h3{
+	font-size: 2rem;
+	font-weight:bold;
+	font-family: $portfolio-font-family;
+	color:#151515;
+	margin-bottom: 1rem;
+	// margin-left:5rem;
+}
+
+// .about-offer{
+// 	margin-left:4.2rem;
+// }
+
+	.about-offer-ul1{
+		margin:0 auto 3rem;
+		width:20rem;
+		max-width:90rem;
+	}
+	
+		// .row{
+		// 	margin:0 auto;
+		// 	width:20rem;
+		// }
+
+		.about-offer-ul1 > li{
+			font-family:$title-font-family;
+			font-size:1.6rem;
+			font-weight:bold;
+			color:#fff;
+			text-align:center;
+			width: 20rem;
+			margin-bottom: 3rem;
+		}
+		
+		.fa-check{
+			margin-right:4px;
+			color:#aaa;
+		}
+		
+	
+	.about-offer-ul2{
+		margin-left: 10rem;
+	}
+		
+		.about-offer-ul2 > li{
+			font-family:$title-font-family;
+			font-size:1.6rem;
+			font-weight:bold;
+			list-style:disc;
+			color:#fff;
+		}
+
+.about-svg{
+	max-height: 100%;
+}
+
+
+.about-bg1{
+	background-color:#f4f4f4;
+}
+
+.panel-offer{
+	padding:40px 60px;
+}
+
+.about-bottom{
+	padding:3rem 1rem 3rem 5rem;
+}
+
+	.about-profile{
+		margin-top:20px;
+	}
+	
+		.about-h2-tools{
+			font-size:3rem;
+		}
+		
+		.about-biography{
+			padding-left:2rem;
+			font-size:1.6rem;
+			line-height: 2.4rem;
+			color:#747474;
+			margin-bottom:36px;
+		}
+				
+		.about-screen{
+			float:right;
+			position: relative;
+		}
+		
+	.about-myself{
+		width: 14rem;
+		margin-bottom:4rem;
+	}
+
+.about-tools{
+	padding:30px 60px;
+}
+		
+.about-tools-p{
+			font-size:1.8rem;
+			line-height: 28px;
+			color:#747474;
+			margin-bottom:36px;
+}
+
+.seemywork{
+	width:150px;
+	height:164px;
+	margin:0 auto;
+	background-image:url(img/about/seemywork.png);
+	background-repeat:no-repeat;
+	background-size:70%;
+	background-position:center;
+}
+	
+	.seemywork-img{
+		position:relative;
+		top:82px;
+		right:-3px;
+		width:30%;
+	}
+
+.showmore{
+	cursor: pointer;
+	text-align: center;
+	width:86px;
+	height:40px;
+	text-decoration:underline;
+	text-align:left;
+}
+	
+.about-hide{
+	display:none;
+}

@@ -1,0 +1,453 @@
+/*****************************************
+
+	Portfolio - Innerpage - Common
+
+******************************************/
+.page-inner{
+	margin:0 auto;
+	padding:2rem 1rem 2rem 4.4rem;
+}
+
+.page-inner-top{
+	margin:0 auto;
+	padding:0.8rem 1rem 2rem 4.4rem;
+}
+
+.inner-content-nwp,
+.inner-content-wzb{
+	width:100%;
+	margin:0 auto;
+}
+
+.page-h1,
+.page-h2{
+	font-family:$portfolio-font-family;
+	-webkit-font-smoothing: antialiased;
+}
+
+.page-h1{
+	font-size: 2.4rem;
+	font-weight:bold;
+	padding-bottom:0.6rem;
+	border-bottom:1px solid #adadad;
+}
+
+.page-h2{
+	font-size:2rem;
+	font-weight:bold;
+}
+
+
+.page-headdescription{
+	font-size:1.8rem;
+	padding-top:10px;
+	margin-bottom:3rem;
+	color:#747474;
+}
+
+	.page-inner > p{
+		font-size: 1.6rem;
+		line-height: 28px;
+		color:#464646;
+	}
+		
+	.description-p{
+		color:#464646;
+		margin-top:30px;
+	}
+
+	.page-viewsite{
+		margin-bottom:6rem;
+	}
+
+		.viewsite{
+			width:55%;	
+			padding:1.6rem;
+			margin:0 auto;
+			font-size:1.6rem;
+			text-align:center;
+			border:1px solid #333;
+		}
+
+	
+.bg1{
+	background-color:#f4f4f4;
+	border-top:1px solid #ddd;
+}
+
+.bg2{
+	background-color:#f9f9f9;
+	border-top:1px solid #ddd;
+}
+
+.bg-b{
+	border-bottom:1px solid #ddd;
+}
+
+.wfdescription{
+	counter-reset: item;
+}
+
+.wfdescription > li{
+	font-size: 1.6rem;
+	margin-bottom:1.4rem;
+	color:#464646;
+}
+
+	.wfdescription > li:before{
+		display: inline-block;
+		content: counter(item) "";
+		counter-increment: item;
+		color: white;
+		margin:5px 5px 0 0;
+		padding: 0 6px;
+	}
+	
+	
+.inner-p{
+	margin:30px 0;
+}
+
+.page-smartphone{
+	float:left;
+	position: relative;
+	margin-right: 60px;
+	margin-left:20px;
+	bottom: -183px;
+	width:34%;
+}
+
+.page-tablet{
+	float: left;
+	position: relative;
+	width:66%;
+}
+
+/*******************************
+
+	Innerpage - UBCBAJA
+
+********************************/
+.ubc-sec{
+	margin-bottom:30px;
+}
+
+.ubc-h1{
+	line-height:3rem;
+}
+
+.ubc-inner-rc{
+	padding-bottom:3rem;
+}
+
+	.ubc-h2{
+		margin-bottom: 5px;
+	}
+		
+	.disc-listred > li{
+		list-style:disc;
+		color: #fe0707;
+		margin-left: 30px;
+		margin-bottom:10px;
+	}
+	
+	.disc-listblue > li{
+		list-style:disc;
+		color: #4d60d5;
+		margin-left: 30px;
+		margin-bottom:10px;
+	}
+	
+		.listred-inner,
+		.listblue-inner{
+			color:#464646;
+			font-size:1.6rem;
+		}
+		
+
+.ubc-inner-h3{
+	font-size:3rem;
+	margin-bottom: 5px;
+}
+
+	.ubc-inner-h3-mockup{
+		font-size:2.6rem;
+		font-weight:bold;
+		margin-bottom: 3rem;
+	}
+	
+		.ubc-wf > li:before{
+			background-color:#FD8B3F;
+		}
+		
+.ubc-homewf{
+	margin-bottom: 30px;
+}
+
+	.ubc-homewf-img{
+		border:1px solid #e7e7e7;
+	}
+
+.ubc-sps-p{
+	margin-bottom:30px;
+}
+
+	.sps-arrow{
+		margin:30px auto;
+		-ms-transform: rotate(90deg); /* IE 9 */
+		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		transform: rotate(90deg); /* Standard syntax */
+		width:38%;
+	}
+	
+	
+	.sps-before{
+	}
+	
+	.sps-before-img,
+	.sps-after-img{
+		border:1px solid #e7e7e7;
+	}
+
+.ubc-mobile{
+	position: relative;
+}
+
+.sponsorship-wm{
+	margin:0 auto 30px;
+}
+
+.formere-chart{
+	width:600px;
+	margin:0 auto 30px;
+}
+
+.ubc-smartphone{
+	position: relative;
+	bottom: 47px;	
+}
+
+.tstmnl{
+	width:100%;
+	margin:3rem auto;
+}
+	
+	.tstmnl-left{
+		width:20%;
+		margin:0 auto 2rem;
+	}
+	
+	.tstmnl-right{
+		font-size:1.6rem;
+		color:#888;
+		margin-top:4px;
+		margin-bottom:13px;
+	}
+	
+	.tstmnl-spn{
+		font-size:1.6rem;
+		color:#888;
+	}
+
+
+/*******************************
+
+	Innerpage - Newsportal
+
+********************************/
+.nwp-h1{
+		line-height:3rem;
+	}
+
+		.nwp-img{
+			border:1px solid #e7e7e7;
+		}
+
+		.nwp-backend-login{
+			height: 500px;
+		}
+
+		.nwp-backend-loginform{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		.nwp-backend-loginform > p{
+			font-size: 2rem;
+		}
+
+		.nwp-backend-loginform > label{
+			font-size: 1.8rem;
+			margin: 0;
+		}
+
+		.nwp-backend-input{
+			width: 100%;
+			height: 36px;
+			margin-bottom: 20px;
+			font-size: 1.6rem;
+			border: 1px solid #ccc;
+		}
+
+		.nwp-backend-send{
+			width: 100px;
+			height: 40px;
+			font-size: 1.4rem;
+			background-color: #41A837;
+			color: #fff;
+			border: none;
+		}
+
+		.nwp-backend-input:focus,
+		.nwp-backend-send:focus{
+			outline: none;
+		}
+/*******************************
+
+	Innerpage - Ecommerce
+
+********************************/
+.ecm-h1{
+	border-bottom: 1px solid #adadad;
+}
+
+.ecm-h2{
+	margin-bottom:5px;
+}
+
+.ecm-wfpd-wrap{
+	border-bottom:none;
+}
+	
+	.ecm-wf-pd > li:before,
+	.ecm-wf-home > li:before{
+			background-color:#50a4c7;
+		}
+	
+	.ecm-productwf-img,
+	.ecm-productmu-img,
+	.ecm-homemu-img{
+		border:1px solid #e7e7e7;
+	}
+
+.ecm-homewf-img{
+	border:1px solid #e7e7e7;
+}
+
+/*******************************
+
+	Innerpage - Reggiekeywatson
+
+********************************/
+.disclaimer-p{
+	margin-top:30px;
+	color:#464646;
+	font-size:1.8rem;
+}
+
+.rgk-mockup{
+	margin-left:20px;
+}
+
+.rgk-mockup > li{
+	list-style:disc;
+	font-size: 1.8rem;
+}
+
+/*******************************
+
+	Innerpage - WazabiBuzz
+
+********************************/
+.inner-sec-wzbtop{
+	width:100%;
+	padding-top: 30px;
+}
+
+	.inner-sec-wzb{
+		padding:3rem 6rem 6rem;
+	}
+	
+	.wzb-p{
+		margin:20px 0;
+		font-size: 1.8rem;
+		text-align: center;
+		line-height:28px;
+	}
+	
+.wzb-mobnav{
+	float:none;
+	bottom:0;
+	margin:0 auto;
+}
+	
+.inner-wzb-sphimg{
+	}
+
+.wzb-wf,
+.wzb-wfcode{
+	margin-bottom:3rem;
+}
+
+	.wzb-wf-img,
+	.wzb-code-img{
+		border: 1px solid #e7e7e7;
+	}
+				
+/*******************************
+
+	Innerpage - Typography
+
+********************************/
+.eas-h1{
+	margin-bottom:0;
+}
+
+.inner-content-typ{
+	padding-top:30px;
+}
+
+.eas-content{
+	background:url(img/eastasianserif/sakura.png) no-repeat scroll -10px 20.6%;
+	background-size:62%;
+}
+
+.eas-h2,
+.showcase-h2{
+	font-size:2.4rem;
+	margin-bottom: 2rem;
+}
+	
+	.eas-showcase{
+		position:relative;
+		bottom:130px;
+	}
+
+.eas-fp{
+	width:100%;
+	margin:20px 0 50px;
+}
+	
+.eas-cp{
+	width:100%;
+	margin:20px 0;
+}
+
+.eas-clg{
+	margin-top:6rem;
+}
+	
+.easprocess-img{
+	margin:0 auto;
+	margin-bottom: 30px;
+}	
+
+.easpoint{
+	margin:0 auto;
+	width:900px;
+}
+
+.showcase{
+	margin:0 auto 3rem;
+	border:1px solid #e7e7e7;
+}

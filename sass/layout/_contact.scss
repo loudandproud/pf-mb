@@ -1,0 +1,129 @@
+/*****************************************
+
+	Contact Me
+
+******************************************/
+.contact{
+	padding:0 1rem 4rem 4.2rem;
+	background-color:#232020;
+	text-align:center;
+}
+
+.contact-h2{
+	padding:1.5rem 0;
+	font-size: 2rem;
+	font-weight:700;
+	font-family:Candida,"Times New Roman", Times, serif;
+	color:#fff;
+	text-align:center;
+}
+
+.cnt-back{
+	left:20px;
+	margin:0;
+}
+
+	.contact-input,
+	.contact-txtarea{
+		width:96%;
+		padding: 6px;
+		font-size: 1.6rem;
+		border: 1px solid #ccc;
+	}
+
+	.contact-input{
+		height:2.6rem;
+		margin-bottom:3rem;
+	}
+
+	.contact-txtarea{
+		height:10rem;	
+		margin-bottom:2rem;
+	}
+
+	.contact-input:focus,
+	.contact-txtarea:focus{
+		outline: none;
+	}
+
+	.contact-label{
+		display:block;
+		font-size: 1.6rem;
+		font-weight:600;
+		color:#fff;
+	}
+
+.contact-input:focus{
+	outline:none;
+}
+
+
+.submit{
+	width:11rem;
+	height: 3rem;
+	background-color:#F75959;
+	border: none;
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 100;
+	cursor:pointer;
+}	
+
+	.submit:focus{
+		border: none;
+		outline: none;
+	}
+
+.success,
+.error{
+	font-size: 1.6rem;
+	font-style:italic;
+	color:#fff;
+	margin-bottom:2rem;
+}
+
+#sending{
+	position:fixed;
+	top:50%;
+	left:45%;
+	width:8rem;
+	height:8rem;
+	line-height:8rem;
+	background-color:#fff;
+	font-size:1.2rem;
+	text-align:center;
+	text-transform:uppercase;
+	z-index:2;
+	border-radius: 50%;
+	visibility:hidden;
+}
+
+#sending:after{
+	content:"";
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	width: 8rem;
+	height: 8rem;
+	border: 10px solid #FD6262;
+	border-right-color: transparent;
+	border-radius: 50%;
+	box-shadow: 0 0 25px 2px #2e2e2e;
+	animation: spin 1s linear infinite;
+	-webkit-animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin
+{
+	from { -webkit-transform: rotate(0deg);}
+	50%  { -webkit-transform: rotate(180deg);}
+	to   { -webkit-transform: rotate(360deg);}
+}
+
+
+@keyframes spin
+{
+	from { transform: rotate(0deg); }
+	50%  { transform: rotate(180deg);}
+	to   { transform: rotate(360deg);}
+}
