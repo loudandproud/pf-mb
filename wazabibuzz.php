@@ -1,9 +1,9 @@
 <?php
-require_once 'Mobile_Detect.php';
-$detect = new Mobile_Detect;
-if(!$detect->isMobile()){
-    header('location:http://toruinamoto.com', true, 301);
-}else{
+// require_once 'Mobile_Detect.php';
+// $detect = new Mobile_Detect;
+// if(!$detect->isMobile()){
+//     header('location:http://toruinamoto.com', true, 301);
+// }else{
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,13 +12,11 @@ if(!$detect->isMobile()){
 <title>WaZabiBuzz - Portfolio</title>
 <meta name="keywords" content="web designer,web developer, design, webdesign, web, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience, vancouver" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/jquery.powertip.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.png">
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.powertip.min.js"></script>
 <script src="js/jquery.mousewheel.js"></script>
 <script src="js/jquery.colorscroll.js"></script>
 <script type="text/javascript" src="js/mobile.js"></script>
@@ -31,7 +29,7 @@ if(!$detect->isMobile()){
     <div class="page-inner-top">
         <h1 class="page-h1 wzb-h1">WaZabiBuzz</h1>
         <h3 class="page-headdescription">Mobile First Design, Wordpress Integration</h3>
-            <img src="img/wazabibuzz/wzb-innertop.jpg" alt="wazabibuzz-inner-topimage">
+            <img src="img/wazabibuzz/wzb-innertop2.jpg" alt="wazabibuzz-inner-topimage">
         <p class="description-p">WaZabiBuzz is a viral media website for business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.
         <br>I made this website mobile-first design because a lot of users check this kind of website with mobile devices.</p>
     </div>
@@ -63,7 +61,7 @@ if(!$detect->isMobile()){
     </section>
     <section class="page-sec bg1 bg-b">
        <div class="page-inner">
-            <h2 class="page-h2">Inner page design for PC</h2>
+            <h2 class="page-h2">Inner page design for Desktop</h2>
             <p class="inner-p">The website aims to have its content shared by users. It focuses on two social media websites, Facebook and Twitter, of which share buttons are placed on the right top section and the middle of page. </p>
            <img src="img/wazabibuzz/wzb-inner-pagepc.jpg" alt="wazabibuzz-inner-page-pc" class="inner-wzb-pagepc">
        </div>
@@ -73,7 +71,7 @@ if(!$detect->isMobile()){
         <h2 class="page-h2">Inner page design for mobile</h2>
         <p class="inner-p">Please hover the devices to see the whole page.</p>
             <div class="wzb-page-mobile cf">
-				<img src="img/wazabibuzz/wzb-tabletandphone.jpg" alt="wazabibuzz-tablet-and-phone">
+				<img src="img/wazabibuzz/wzb-tabletandphone2.jpg" alt="wazabibuzz-tablet-and-phone">
             </div>
         </div>
     </section>
@@ -87,5 +85,5 @@ if(!$detect->isMobile()){
 </body>
 </html>
 <?php
-}
+// }
 ?>

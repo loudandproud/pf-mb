@@ -113,6 +113,10 @@
 			margin-bottom: 3rem;
 		}
 		
+		.about-offer-ul1 > li:nth-child(2n+1){
+			clear:left;
+		}
+
 		.fa-check{
 			margin-right:4px;
 			color:#aaa;

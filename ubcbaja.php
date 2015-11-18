@@ -1,9 +1,9 @@
 <?php
-require_once 'Mobile_Detect.php';
-$detect = new Mobile_Detect;
-if(!$detect->isMobile()){
-    header('location:http://toruinamoto.com', true, 301);
-}else{
+// require_once 'Mobile_Detect.php';
+// $detect = new Mobile_Detect;
+// if(!$detect->isMobile()){
+//     header('location:http://toruinamoto.com', true, 301);
+// }else{
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,14 +12,12 @@ if(!$detect->isMobile()){
 <title>UBCBAJA - Portfolio</title>
 <meta name="keywords" content="web designer,web developer, design, webdesign, web, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience, vancouver" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/jquery.powertip.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900,100,100italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.png">
 <script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.powertip.min.js"></script>
 <script src="js/jquery.mousewheel.js"></script>
 <script src="js/jquery.colorscroll.js"></script>
 <script type="text/javascript" src="js/mobile.js"></script>
@@ -32,7 +30,7 @@ if(!$detect->isMobile()){
             <div class="page-inner-top">
                 <h1 class="page-h1 ubc-h1">UBC Baja Website Contest</h1>
                 <h3 class="page-headdescription">Interface Design &amp; HTML&amp;CSS Coding</h3>
-                <img src="img/ubcbaja/ubc-home.jpg" alt="ubc-wireframe" class="ubc-home3d">
+                <img src="img/ubcbaja/ubc-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">
                 <p class="description-p">UBC Baja is an engineering student team that designs, builds, and races a single seat, all terrain off-road vehicle in the Baja SAE Series. They had a competition to renew their website's design on Decewmber 2013. All students in Web Development class at Vanarts were assigned to perticipate in the competition. We had to submit two graphic designs of thier webpage. I was really happy to be chosen as a championship.</p>
             </div>
         </section>
@@ -77,7 +75,7 @@ if(!$detect->isMobile()){
         <section class="page-sec">
             <div class="page-inner">
                 <h3 class="ubc-inner-h3-mockup">Home page Mockup</h3>
-                <img src="img/ubcbaja/ubc-home.jpg" alt="ubc-wireframe" class="ubc-home3d">
+                <img src="img/ubcbaja/ubc-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">
             </div>
         </section>
         <section class="page-sec bg2 bg-b">
@@ -129,5 +127,5 @@ if(!$detect->isMobile()){
 </body>
 </html>
 <?php
-}
+// }
 ?>

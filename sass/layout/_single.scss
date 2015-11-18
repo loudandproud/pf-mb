@@ -71,12 +71,12 @@
 
 	
 .bg1{
-	background-color:#f4f4f4;
+	// background-color:#f4f4f4;
 	border-top:1px solid #ddd;
 }
 
 .bg2{
-	background-color:#f9f9f9;
+	// background-color:#f9f9f9;
 	border-top:1px solid #ddd;
 }
 
@@ -100,7 +100,7 @@
 		counter-increment: item;
 		color: white;
 		margin:5px 5px 0 0;
-		padding: 0 6px;
+		padding: 5px 8px 0;
 	}
 	
 	
@@ -287,6 +287,7 @@
 			margin-bottom: 20px;
 			font-size: 1.6rem;
 			border: 1px solid #ccc;
+			padding:5px;
 		}
 
 		.nwp-backend-send{

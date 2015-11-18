@@ -188,7 +188,6 @@
 	}
 	
 	.portfolio-h1{
-		font-family:Roboto2014, "Open Sans", Verdana;
 		font-size:3.6rem;
 		font-weight:bold;
 	}
@@ -279,7 +278,7 @@
 		
 	/***ubcbaja***/
 	.wfdescription > li:before{
-		padding: 0 8px;
+		padding: 5px 8px 0;
 	}
 	
 	.tstmnl-right{
@@ -384,6 +383,10 @@
 		.about-bottom{
 			padding:60px 60px 100px 130px;
 		}
+
+	.portfolio-gzt{
+		padding:1.5rem 1.5rem 20% 5rem;
+	}
 
 	.portfolio-h1{
 		font-size:4rem;
@@ -904,6 +907,10 @@
 		line-height: 9rem;
 	}
 	
+	.portfolio-gzt{
+		padding:1.5rem 1.5rem 30% 5rem;
+	}
+
 	.sps-before,
 	.sps-arrow{
 		float:left;

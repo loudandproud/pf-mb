@@ -65,12 +65,40 @@
 
 /*******************************
 
+	Listpage - Gazette Magazine
+
+********************************/
+.portfolio-gzt{
+	position:relative;
+	padding:1.5rem 1.5rem 10% 5rem;
+	background-image: url(img/gazettemag/gazettemag-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#fff;
+	text-shadow:1px 1px 0 #463A3A;
+}
+
+.gzt-underleft{
+	width:40%;
+	margin-top:2rem;
+}
+
+.left-gzt{
+	color:#fff;
+}
+
+.pf-next-gzt{
+	background-color:rgba(86,71,71,0.85);
+}
+
+/*******************************
+
 	Listpage - UBCBAJA
 
 ********************************/
 .portfolio-ubc{
 	position:relative;
-	padding:1.5rem 1.5rem 1.5rem 4.2rem;
+	padding:1.5rem 1.5rem 1.5rem 5rem;
 	padding-bottom: 0;
 	background-image: url(img/ubcbaja/ubctop-bg.jpg);
 	background-repeat: no-repeat;
@@ -105,7 +133,7 @@
 ********************************/
 .portfolio-nwp{
 	position:relative;
-	padding:1.5rem 1.5rem 0 4.2rem;
+	padding:1.5rem 1.5rem 0 5rem;
 	background-color:#f1f1f1;
 	background-image:url(img/newsportal/nwptop-bg.jpg);
 	background-repeat: no-repeat;
@@ -144,7 +172,7 @@
 ********************************/
 .portfolio-ecm{
 	position: relative;
-	padding:1.5rem 0 0 4.2rem;
+	padding:1.5rem 0 0 5rem;
 	background-image:url(img/ecommerce/ecmtop-bg.jpg);
 	background-repeat: no-repeat;
 	background-position:center;
@@ -254,7 +282,7 @@
 ********************************/
 .portfolio-wzb{
 	position:relative;
-	padding: 1.5rem 0 0 4.2rem;
+	padding: 1.5rem 0 0 5rem;
 	background-image: url(img/wazabibuzz/wzbtop-bg.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -301,7 +329,7 @@
 ********************************/
 .portfolio-eas{
 	position:relative;
-	padding: 1.5rem 0 4rem 4.2rem;
+	padding: 1.5rem 0 4rem 5rem;
 	background-image: url(img/eastasianserif/eastop-bg.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;

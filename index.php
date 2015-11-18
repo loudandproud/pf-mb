@@ -145,13 +145,13 @@
                                 </a>
                             </div>    
                             <div class="pf-right nwp-underright cf">
-                                <img src="img/newsportal/nwp-top.png" alt="newspoprtal" class="nwp-topimg">
+                                <img src="img/newsportal/nwp-top2.png" alt="newspoprtal" class="nwp-topimg">
                             </div>
                          </div>   
                     </section>
                     <section class="portfolio-ecm" id="portfolio-ecm" data-background="http://toruinamoto.com/img/ecommerce/ecmtop-bg.jpg">
                         <a href="ecommerce.php" class="cf left-ecm">
-                            <h1 class="portfolio-h1">SNOW FREAK</h1>
+                            <h1 class="portfolio-h1">Snow Freak</h1>
                             <h3 class="portfolio-h3">E-commerce</h3>
                             <i class="portfolio-i">User Interface Design</i>
                         </a> 
@@ -160,7 +160,7 @@
                                 <a href="ecommerce.php" class="pf-nextmob pf-next-ecm">
                                    View Project
                                 </a>
-                            </div>    
+                            </div>
                             <div class="pf-right ecm-underright cf">
                                 <img src="img/ecommerce/ecm-top.png" alt="ecommerce" class="ecm-topimg">
                             </div>
