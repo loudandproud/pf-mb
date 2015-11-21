@@ -5,7 +5,7 @@
 ******************************************/
 .page-inner{
 	margin:0 auto;
-	padding:2rem 1rem 2rem 4.4rem;
+	padding:3rem 1rem 3rem 4.4rem;
 }
 
 .page-inner-top{
@@ -26,34 +26,46 @@
 }
 
 .page-h1{
-	font-size: 2.4rem;
+	font-size: 2.8rem;
+	line-height:3rem;
 	font-weight:bold;
+	margin-top:0.3rem;
 	padding-bottom:0.6rem;
 	border-bottom:1px solid #adadad;
 }
 
 .page-h2{
-	font-size:2rem;
+	font-size:2.6rem;
+	line-height:3rem;
 	font-weight:bold;
+	margin-bottom:2rem;
 }
 
 
 .page-headdescription{
 	font-size:1.8rem;
-	padding-top:10px;
+	padding-top:1rem;
 	margin-bottom:3rem;
 	color:#747474;
 }
 
 	.page-inner > p{
-		font-size: 1.6rem;
-		line-height: 28px;
+		font-size: 1.8rem;
+		line-height: 2.6rem;
 		color:#464646;
 	}
-		
+	
+
+	.tstmnl{
+		font-size: 1.8rem;
+		line-height: 2.6rem;
+		color:#888;
+	}
+
+
 	.description-p{
 		color:#464646;
-		margin-top:30px;
+		margin-top:3rem;	
 	}
 
 	.page-viewsite{
@@ -89,7 +101,7 @@
 }
 
 .wfdescription > li{
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom:1.4rem;
 	color:#464646;
 }
@@ -125,6 +137,64 @@
 
 /*******************************
 
+	Innerpage - Gazettemag
+
+********************************/
+.gzt-b1{
+	position:relative;	
+	background-color:#171d22;
+	color:#fff;
+}
+
+.gzt-b2{
+	position:relative;	
+	background-color:#000;
+	color:#fff;
+}
+
+.gzt-b3{
+	position:relative;
+	background-color:#F4F6FF;
+}
+
+.gzt-cards-sec{
+	position: relative;
+	z-index:2;
+	color:#fff;
+}
+
+.tools-p{
+	font-size:1.6rem;
+}
+
+.gzt-cards{
+	margin-bottom:-6rem;
+}
+
+.gzt-left{
+	// float:left;
+	// width:54%;
+	// color:#fff;
+	// @include body-font;
+}
+
+.gzt-right{
+	// float:right;
+	// width:46%;
+	// color:#fff;
+	// @include body-font
+	margin-bottom:2rem;
+}
+
+.gzt-ad-p{
+	margin-bottom:3rem;
+}
+
+.gzt-sp-post{
+	width:70%;
+}
+/*******************************
+
 	Innerpage - UBCBAJA
 
 ********************************/
@@ -143,7 +213,7 @@
 	.ubc-h2{
 		margin-bottom: 5px;
 	}
-		
+	
 	.disc-listred > li{
 		list-style:disc;
 		color: #fe0707;
@@ -200,10 +270,6 @@
 		width:38%;
 	}
 	
-	
-	.sps-before{
-	}
-	
 	.sps-before-img,
 	.sps-after-img{
 		border:1px solid #e7e7e7;
@@ -256,53 +322,53 @@
 
 ********************************/
 .nwp-h1{
-		line-height:3rem;
+	line-height:3rem;
+}
+
+	.nwp-img{
+		border:1px solid #e7e7e7;
 	}
 
-		.nwp-img{
-			border:1px solid #e7e7e7;
-		}
+	// .nwp-backend-login{
+	// 	height: 500px;
+	// }
 
-		.nwp-backend-login{
-			height: 500px;
-		}
+	.nwp-backend-loginform{
+		width: 100%;
+		margin: 0 auto;
+	}
 
-		.nwp-backend-loginform{
-			width: 100%;
-			margin: 0 auto;
-		}
+	.nwp-backend-loginform > p{
+		font-size: 2rem;
+	}
 
-		.nwp-backend-loginform > p{
-			font-size: 2rem;
-		}
+	.nwp-backend-loginform > label{
+		font-size: 1.8rem;
+		margin: 0;
+	}
 
-		.nwp-backend-loginform > label{
-			font-size: 1.8rem;
-			margin: 0;
-		}
+	.nwp-backend-input{
+		width: 100%;
+		height: 36px;
+		margin-bottom: 20px;
+		font-size: 1.6rem;
+		border: 1px solid #ccc;
+		padding:5px;
+	}
 
-		.nwp-backend-input{
-			width: 100%;
-			height: 36px;
-			margin-bottom: 20px;
-			font-size: 1.6rem;
-			border: 1px solid #ccc;
-			padding:5px;
-		}
+	.nwp-backend-send{
+		width: 100px;
+		height: 40px;
+		font-size: 1.4rem;
+		background-color: #41A837;
+		color: #fff;
+		border: none;
+	}
 
-		.nwp-backend-send{
-			width: 100px;
-			height: 40px;
-			font-size: 1.4rem;
-			background-color: #41A837;
-			color: #fff;
-			border: none;
-		}
-
-		.nwp-backend-input:focus,
-		.nwp-backend-send:focus{
-			outline: none;
-		}
+	.nwp-backend-input:focus,
+	.nwp-backend-send:focus{
+		outline: none;
+	}
 /*******************************
 
 	Innerpage - Ecommerce
@@ -381,9 +447,6 @@
 	bottom:0;
 	margin:0 auto;
 }
-	
-.inner-wzb-sphimg{
-	}
 
 .wzb-wf,
 .wzb-wfcode{

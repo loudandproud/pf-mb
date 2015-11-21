@@ -54,20 +54,17 @@
                     <input type="text" disabled="disabled" placeholder="Your Password" class="nwp-backend-input">
                     <button class="nwp-backend-send">Login</button>
                 </div>
-            </div>
-        </section>    
-        <section class="page-sec bg1">
-            <div class="page-inner">
+
                 <p class="inner-p">Articles page on backend simply shows information.</p>
                 <img src="img/newsportal/articles-back.png" alt="backend-article-list" class="nwp-img">
                 <p class="inner-p">Administrators and Editors can manage sign-up customers</p>
                 <img src="img/newsportal/customers.png" alt="newsportal-customers" class="nwp-img">
-                
             </div>
-        </section>
-        <section class="page-sec cf">
+        </section>    
+
+        <section class="page-sec">
             <div class="page-inner page-viewsite">
-            <a href="http://theiamzone.com/toru_inamoto/directmarketing/index.php"class="viewsite vs-m" target="_blank">View Site</a>
+            <a href="http://toruinamoto.com/dmnprototype/index.php"class="viewsite vs-m" target="_blank">View Site</a>
             </div>
         </section>
 </div>

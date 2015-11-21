@@ -98,7 +98,7 @@
     </section>
     <section class="page-sec cf">
         <div class="page-inner page-viewsite">
-            <a href="http://theiamzone.com/toru_inamoto/term2-clientproject/" class="viewsite" target="_blank">View Site</a>
+            <a href="http://toruinamoto.com/rkwprototype/index.php" class="viewsite" target="_blank">View Site</a>
         </div>
     </section>
 </div> 

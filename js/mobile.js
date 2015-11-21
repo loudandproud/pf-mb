@@ -65,17 +65,17 @@ $(function(){
 	var $mobnav = $('.mobile-nav');
 	$('#btn').click(function(){
 		if(	panelId=='ubcbaja'){
-			window.location.replace('http://toruinamoto.com/mobile/indexxx.php#portfolio-ubc');
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-ubc');
 		}else if( panelId=='newsportal'){
-			window.location.replace('http://toruinamoto.com/mobile/indexxx.php#portfolio-nwp');
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-nwp');
 		}else if( panelId=='ecommerce'){
-			window.location.replace('http://toruinamoto.com/mobile/indexxx.php#portfolio-ecm');
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-ecm');
 		}else if( panelId=='reggiekey'){
-			window.location.replace('http://toruinamoto.com/mobile/indexxx.php#portfolio-rgk');
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-rgk');
 		}else if( panelId=='wazabibuzz'){
-			window.location.replace('http://toruinamoto.com/mobile/indexxx.php#portfolio-wzb');
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-wzb');
 		}else if( panelId=='typography'){
-			window.location.replace('http://toruinamoto.com/mobile/indexxx.php#portfolio-eas');
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-eas');
 		}else{
 			
 			if($mobnav.css('display') == 'none'){
