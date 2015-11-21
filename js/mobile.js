@@ -2,41 +2,50 @@ $(function(){
 	btn();
 	//To change navigation button's color
 	function btn(){
-		var scrollHeight,
-			homeHeight = $('.home').innerHeight(),
-			aboutTop = $('#about-top').innerHeight()+homeHeight,
-			aboutBottom = $('#about-bottom').innerHeight()+aboutTop,
-			prtUbc = $('#portfolio-ubc').innerHeight()+aboutBottom,
-			prtNwp = $('#portfolio-nwp').innerHeight()+prtUbc,
-			prtEcm = $('#portfolio-ecm').innerHeight()+prtNwp,
-			prtRgk = $('#portfolio-rgk').innerHeight()+prtEcm,
-			prtWzb = $('#portfolio-wzb').innerHeight()+prtRgk,
-			prtEas = $('#portfolio-eas').innerHeight()+prtWzb,
-			conTact = $('#contact').innerHeight()+prtEas;
-			
-			
+		var panelId = $('.ckpanel').attr('id'),
+			scrollHeight;//Store scroll height
+
+		if(panelId=="index"){
+			var	aboutTop = $('#about-top').offset().top,
+				aboutBottom = $('#about-bottom').offset().top,
+				prtGzt = $('#portfolio-gzt').offset().top,
+				prtEcm = $('#portfolio-ecm').offset().top,
+				prtRgk = $('#portfolio-rgk').offset().top,
+				prtWzb = $('#portfolio-wzb').offset().top,
+				conTact = $('#contact').offset().top;
 			$(window).on('scroll',function(){
 				scrollHeight = $(this).scrollTop()+14;//btn's padding is 14px
-					if(
-						scrollHeight<homeHeight||
-						aboutTop<scrollHeight&scrollHeight<aboutBottom||
-						prtNwp<scrollHeight&scrollHeight<prtEcm||
-						prtRgk<scrollHeight&scrollHeight<prtWzb
-					){
-						$('.icon-bar').css('background-color','#151515');
-					}
-					
-					if(
-						homeHeight<scrollHeight&scrollHeight<aboutTop||
-						aboutBottom<scrollHeight&scrollHeight<prtNwp||
-						prtEcm<scrollHeight&scrollHeight<prtRgk||
-						prtWzb<scrollHeight&scrollHeight<prtEas||
-						prtEas<scrollHeight&scrollHeight<conTact
-					){
-						$('.icon-bar').css('background-color','#fff');
-					} 
+				changebtnColor(scrollHeight,aboutTop,aboutBottom,prtGzt,prtEcm,prtRgk,prtWzb,conTact,panelId);
 			});
-	}
+		}
+
+		if(panelId=="gazettemag"){
+			var	gztConcept = $('#gzt-concept').offset().top,
+				gztAds = $('#gzt-ads').offset().top;
+			$(window).on('scroll',function(){
+				scrollHeight = $(this).scrollTop()+14;//btn's padding is 14px
+				changebtnColor(scrollHeight,gztConcept,gztAds,0,0,0,0,0,panelId); 
+			});
+		}
+
+		function changebtnColor(sh,a,b,c,d,e,f,g,h){
+			if(h=="index"){
+				var whtCond = a<sh&&sh<b||b<sh&&sh<d||e<sh&&sh<f,
+					blkCond = b<sh&&sh<c||d<sh&&sh<e||f<sh&&sh<g;	
+			}
+			if(h=="gazettemag"){
+				var whtCond = a<sh&&sh<b,
+					blkCond = sh<a||b<sh;
+			}
+			if(whtCond){
+				$('.icon-bar').css('background-color','#fff');
+			}
+			if(blkCond){
+				$('.icon-bar').css('background-color','#151515');
+			} 
+		}
+	}//btn close
+
 	//To change navigation's height
 	function mbnavresize(){
 		var browserHeight = $(window).height(); 

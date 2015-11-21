@@ -25,7 +25,7 @@
 <body>
 <div id="pageContent" class="cf">
 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar" id="btn"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> 
-<div id="newsportal" class="panel" data-number="5">
+<div id="newsportal" class="panel" data-number="6">
         <section class="page-sec">
            <div class="page-inner-top">
                 <h1 class="page-h1 nwp-h1">Direct Marketing News</h1>

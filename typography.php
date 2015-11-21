@@ -25,7 +25,7 @@ if(!$detect->isMobile()){
 <body>
 <div id="pageContent" class="cf">
 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar" id="btn"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> 
-<div id="typography" class="panel" data-number="9">
+<div id="typography" class="panel" data-number="10">
     <div class="cf eas-content">
         <section class="page-sec">
             <div class="page-inner-top">

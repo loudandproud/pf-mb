@@ -25,7 +25,7 @@
 <body>
 <div id="pageContent" class="cf">
 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar" id="btn"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> 
-<div id="ecommerce" class="panel" data-number="5">
+<div id="ecommerce" class="panel" data-number="7">
     <section class="page-sec cf">
        <div class="page-inner-top">
             <h1 class="page-h1 ecm-h1">SNOW FREAK</h1>

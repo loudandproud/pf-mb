@@ -24,7 +24,7 @@
 <body>
 <div id="pageContent" class="cf">
 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar" id="btn"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> 
-<div id="wazabibuzz" class="panel" data-number="8">
+<div id="wazabibuzz" class="panel" data-number="9">
     <section class="page-sec">
     <div class="page-inner-top">
         <h1 class="page-h1 wzb-h1">WaZabiBuzz</h1>
