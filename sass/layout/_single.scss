@@ -41,6 +41,10 @@
 	margin-bottom:2rem;
 }
 
+.portfolio-h3,
+.portfolio-i{
+	display:none;
+}
 
 .page-headdescription{
 	font-size:1.8rem;
@@ -171,19 +175,13 @@
 	margin-bottom:-6rem;
 }
 
-.gzt-left{
-	// float:left;
-	// width:54%;
-	// color:#fff;
-	// @include body-font;
-}
-
 .gzt-right{
-	// float:right;
-	// width:46%;
-	// color:#fff;
 	// @include body-font
 	margin-bottom:2rem;
+}
+
+.gzt-ftimg-p{
+	font-size:1.8rem;
 }
 
 .gzt-ad-p{

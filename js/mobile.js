@@ -31,7 +31,7 @@ $(function(){
 		function changebtnColor(sh,a,b,c,d,e,f,g,h){
 			if(h=="index"){
 				var whtCond = a<sh&&sh<b||b<sh&&sh<d||e<sh&&sh<f,
-					blkCond = b<sh&&sh<c||d<sh&&sh<e||f<sh&&sh<g;	
+					blkCond = sh<a||b<sh&&sh<c||d<sh&&sh<e||f<sh&&sh<g;	
 			}
 			if(h=="gazettemag"){
 				var whtCond = a<sh&&sh<b,
@@ -73,7 +73,9 @@ $(function(){
 	//To change navigation's link for each work page
 	var $mobnav = $('.mobile-nav');
 	$('#btn').click(function(){
-		if(	panelId=='ubcbaja'){
+		if(	panelId=='gazettemag'){
+			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-gzt');		
+		}else if(	panelId=='ubcbaja'){
 			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-ubc');
 		}else if( panelId=='newsportal'){
 			window.location.replace('http://mobile.toruinamoto.com/index.php#portfolio-nwp');

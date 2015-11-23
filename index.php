@@ -1,29 +1,11 @@
 <?php
-// require_once 'Mobile_Detect.php';
-// $detect = new Mobile_Detect;
-// if(!$detect->isMobile()){
-//     header('location:http://toruinamoto.com', true, 301);
-// }else{
+require_once 'Mobile_Detect.php';
+$detect = new Mobile_Detect;
+if(!$detect->isMobile()){
+    header('location:http://toruinamoto.com', true, 301);
+}else{
+    include('header.php');
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>toruinamoto.com - Toru Inamoto Web Designer/Developer</title>
-<meta name="keywords" content="web designer,web developer, design, webdesign, web, designer, flat, responsive, smartphone, mobile, template, ui/ux, user interface, user experience, vancouver" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900,100,100italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="shortcut icon" href="img/favicon.png">
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="js/mobile.js"></script>
-
-</head>
- 
-<body>
     <div id="pageContent" class="pageContent cf">
         <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn" id="btn"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> 
             <div id="index" class="ckpanel">
@@ -234,26 +216,6 @@
                 </div>
             </div>
     </div>
-    <nav class="mobile-nav" id="mobile-nav">
-        <ul class="mobile-ul">
-            <li><a href="#home" class="nav">HOME</a></li>
-            <li><a href="#about" class="nav">ABOUT</a></li>
-            <li><a href="#portfolio" class="nav">PORTFOLIO</a></li>
-            <li><a href="#contact" class="nav">CONTACT</a></li>
-        </ul>
-    </nav>
-</body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-57258907-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</html>
 <?php
-// }
-?>
+include('footer.php');
+}//Close mobile detect

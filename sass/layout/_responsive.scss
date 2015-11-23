@@ -76,7 +76,7 @@
 		}
 		
 		.pf-next-rgk{
-			margin-top:53%;
+			margin-top:35%;
 			margin-left:5.6rem;
 		}
 		
@@ -96,6 +96,12 @@
 	.eas-content{
 		background:url(img/eastasianserif/sakura.png) no-repeat scroll -10px 18.4%;
 		background-size:57%;
+	}
+}
+
+@media (min-width: 410px){
+	.ubc-top-pc{
+		margin-top:1rem;
 	}
 }
 
@@ -196,15 +202,10 @@
 		line-height:3.5rem;
 	}
 	
-	// .portfolio-h3{
-	// 	font-size: 1.2rem;
-	// 	font-weight: bold;
-	// }
-	
-	// .portfolio-i{
-	// 	font-size: 1.2rem;
-	// 	font-weight: 100;
-	// }
+	.portfolio-h3,
+	.portfolio-i{
+		display:block;
+	}
 	
 	.portfolio-gzt,
 	.portfolio-eas{
@@ -229,12 +230,15 @@
 	}
 
 	/***ubcbaja***/
+
+	.ubc-underleft{
+		margin-top:2rem;
+	}
 	.ubc-winner{
 		width:auto;
-	}
-	.ubc-winner{
 		margin:0 0 4rem;
 	}
+
 	/***ecommerce***/
 	.portfolio-ecm{
 		padding:2rem 1.5rem 10% 5rem;
@@ -247,8 +251,11 @@
 		top:2rem;
 		left:8.4rem;
 	}
+
 	.pf-next-rgk{
-		margin-left:6rem;
+		width:60%;
+		margin-top:50%;
+		margin-left:31.2%;
 	}
 	.rgk-topimg{
 		margin-top: 10rem;
@@ -309,6 +316,11 @@
 		font-size:1.8rem;
 	}
 	/***newsportal***/
+
+	.nwp-topimg{
+		margin-top:-20px;
+	}
+
 	.nwp-h1{
 		padding-bottom:0.4rem;
 	}
