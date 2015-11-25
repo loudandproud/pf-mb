@@ -211,7 +211,9 @@ if(!$detect->isMobile()){
                                 <button type="submit" class="submit">Send</button>
                             </form>
                         </section>
-                        <div id="sending">Sending...</div>
+                        <div id="sending"><img src="img/logo.svg" alt="sending" class="ajaxloader-img"></div>
+                        <a href="https://ca.linkedin.com/in/toru-inamoto-44a31784" class="sns-a" target="_blank"><img src="img/linkedin.jpg" class="sns-icons" alt="linkedin logo"></a>
+                        <a href="https://github.com/loudandproud" class="sns-a"target="_blank"><img src="img/github.jpg" class="sns-icons" alt="github logo"></a>
                     </div>
                 </div>
             </div>

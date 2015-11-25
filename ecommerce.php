@@ -16,6 +16,7 @@ if(!$detect->isMobile()){
             <img src="img/ecommerce/ecm-innertop.jpg" alt="ecommerce-productpage-mockup" class="">
             <p class="description-p">Snow Freak was an e-commerce interface design project. Students were assigned to design two pages of whatever product they chose for Home&amp;Product page.
              I chose snow-gear as a theme and researched over 20 snow-gear e-commerce websites, and found some common points for successful e-commerce website design.</p>
+            <p class="tools-p"><i class="fa fa-wrench"></i> : Photoshop, Illustrator</p>
        </div>
     </section>
     <section class="page-sec">

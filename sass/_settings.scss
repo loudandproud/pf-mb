@@ -10,13 +10,13 @@ $portfolio-font-family:"NeuzeitGro", Roboto2014, "Open Sans", Verdana, sans-seri
 
 	@font-face {
 		font-family:Candida;
-		src:url(fonts/CandidaStd-Roman.otf);
+		src: url('fonts/CandidaStd-Roman.eot');src: url('fonts/CandidaStd-Roman.eot?#iefix') format('embedded-opentype'),url('fonts/CandidaStd-Roman.woff') format('woff'),url('fonts/CandidaStd-Roman.ttf') format('truetype'),url('fonts/CandidaStd-Roman.otf') format('opentype');
 	}
 
 	@font-face {
 		font-family:Candida;
-		font-weight:bold;
-		src:url(fonts/CandidaStd-Bold.otf);
+		font-weight:800;
+		src: url('fonts/CandidaStd-Bold.eot');src: url('fonts/CandidaStd-Bold.eot?#iefix') format('embedded-opentype'),url('fonts/CandidaStd-Bold.woff') format('woff'),url('fonts/CandidaStd-Bold.ttf') format('truetype'),url('fonts/CandidaStd-Bold.otf') format('opentype');
 	}
 
 	@font-face {

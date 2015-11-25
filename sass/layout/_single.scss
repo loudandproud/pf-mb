@@ -48,9 +48,11 @@
 
 .page-headdescription{
 	font-size:1.8rem;
+	line-height:1.8rem;
 	padding-top:1rem;
 	margin-bottom:3rem;
 	color:#747474;
+	font-weight:bold;
 }
 
 	.page-inner > p{
@@ -190,6 +192,10 @@
 
 .gzt-sp-post{
 	width:70%;
+}
+
+.gzt-sps-p{
+	margin-bottom:30px;
 }
 /*******************************
 
@@ -512,4 +518,13 @@
 .showcase{
 	margin:0 auto 3rem;
 	border:1px solid #e7e7e7;
+}
+
+.sns-a{
+	display:inline;
+}
+
+.sns-icons{
+	width:40px;
+	display:inline;
 }

@@ -16,6 +16,7 @@ if(!$detect->isMobile()){
                 <img src="img/newsportal/nwp-innertop2.jpg" alt="directmarketing news home image">
                 <p class="description-p">Direct Marketing News is a portal website for programming class. We were assigned to chose one topic and to build a portal website with custom CMS. 
                 The fun part of this project was to build dynamic interaction between Frontend and Backend using Ajax. Providing good readibility with any devices was also challenging.</p>
+                <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, Ajax, PHP, MySQL, Photoshop, Illustrator</p>
            </div>
         </section>
         <section class="page-sec bg1">

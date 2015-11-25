@@ -18,6 +18,7 @@ if(!$detect->isMobile()){
                 <p class="description-p">East Asian Serif is an original typeface created in Typography class. I noticed that most of all the typeface having Asian taste are script fonts.
                 I decided to try to make a typeface having both serif and asian taste by giving them East Asian caligraphy feature. 
                 </p>
+                <p class="tools-p"><i class="fa fa-wrench"></i> : Illustrator</p>               
             </div>
         </section>
         <section class="page-sec">

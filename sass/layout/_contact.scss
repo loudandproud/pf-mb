@@ -63,7 +63,7 @@
 	width:11rem;
 	height: 3rem;
 	line-height:3.4rem;
-	background-color:#F75959;
+	background-color:#2bac80;
 	border: none;
 	color: #fff;
 	font-size: 2.2rem;
@@ -88,10 +88,10 @@
 #sending{
 	position:fixed;
 	top:50%;
-	left:45%;
-	width:8rem;
-	height:8rem;
-	line-height:8rem;
+	left:50%;
+	width:6.6rem;
+	height:6.6rem;
+	line-height:6.6rem;
 	background-color:#fff;
 	font-size:1.2rem;
 	text-align:center;
@@ -104,14 +104,16 @@
 #sending:after{
 	content:"";
 	position:absolute;
-	top:-10px;
-	left:-10px;
+	top:-14px;
+	left:-13px;
 	width: 8rem;
 	height: 8rem;
-	border: 10px solid #FD6262;
+	border: 10px solid #2bac80;
+	background-color:#fff;
 	border-right-color: transparent;
 	border-radius: 50%;
 	box-shadow: 0 0 25px 2px #2e2e2e;
+	z-index:-1;
 	animation: spin 1s linear infinite;
 	-webkit-animation: spin 1s linear infinite;
 }
