@@ -14,15 +14,15 @@ if(!$detect->isMobile()){
         <h1 class="page-h1 wzb-h1">WaZabiBuzz</h1>
         <h3 class="page-headdescription">Mobile First Design, Wordpress Integration</h3>
             <img src="img/wazabibuzz/wzb-innertop2.jpg" alt="wazabibuzz-inner-topimage">
-        <p class="description-p">WaZabiBuzz is a viral media website for business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.
+        <p class="description-p">WaZabiBuzz is a viral media website for the business class. The concept is to scope out the most interesting and entertaining topics from Japanese web media and share them with people who find this entertaining.
         <br>I made this website mobile-first design because a lot of users check this kind of website with mobile devices.</p>
-        <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, PHP, MySQL, Wordpress, Photoshop, Illustrator</p>
+        <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, PHP, MySQL, WordPress, Photoshop, Illustrator</p>
     </div>
     </section>
     <section class="page-sec bg1">
        <div class="page-inner">
         <h2 class="page-h2">Creation Process</h2>
-        <p class="inner-p">I took a Progress Enhancement aproach to design this website. I made the design for mobile first, and added more content when displayed with desktop and laptop computers. The code also starts for smartphone first.</p>
+        <p class="inner-p">I took a Progress Enhancement approach to design this website. I made the design for mobile first, and added more content when displayed with desktop and laptop computers. The code also starts for smartphone first.</p>
         <div class="wzb-wfcode cf">
         	<div class="wzb-wf">
                 <img src="img/wazabibuzz/wzb-wireframe.jpg" alt="wazabibuzz-wireframe" class="wzb-wf-img">

@@ -15,8 +15,8 @@ if(!$detect->isMobile()){
                 <h3 class="page-headdescription">Interface Design &amp; HTML&amp;CSS Coding</h3>
                 <img src="img/ubcbaja/ubc-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">
                 <p class="description-p">UBC Baja is an engineering student team that designs, builds, and races a single seat, all terrain off-road vehicle in the Baja SAE Series. 
-                They had a competition to renew their website's design on Decewmber 2013. All students in Web Development class at Vanarts were assigned to perticipate in the competition. 
-                We had to submit two graphic designs of thier webpage. I was really happy to be chosen as a championship.</p>
+                They had a competition to renew their website's design in December 2013. All students in Web Development class at Vanarts were assigned to participate in the competition. 
+                We had to submit two graphic designs of their webpage. I was really happy to be chosen as the winner.</p>
                 <p class="tools-p"><i class="fa fa-wrench"></i> : HTML5, CSS3, jQuery, Photoshop, Illustrator</p>
             </div>
         </section>
@@ -29,7 +29,7 @@ if(!$detect->isMobile()){
                         <li><span class="listred-inner">Feature high quality photographs</span></li>
                         <li><span class="listred-inner">Connecting with Facebook page</span></li>
                         <li><span class="listred-inner">Blog roll while maintaining high visibility of sponsor logos</span></li>
-                        <li><span class="listred-inner">Clean design, righ images, showing serious style that convinces sponsorship its worthy partnering</span></li>
+                        <li><span class="listred-inner">Clean design, rich images, showing serious style that convinces sponsorship its worthy partnering</span></li>
                     </ul>
                 </div>
                 <div class="ubc-inner-right">    
@@ -60,14 +60,14 @@ if(!$detect->isMobile()){
         </section>
         <section class="page-sec">
             <div class="page-inner">
-                <h3 class="ubc-inner-h3-mockup">Home page Mockup</h3>
+                <h3 class="page-h2 ubc-h2">Home page Mockup</h3>
                 <img src="img/ubcbaja/ubc-home2.jpg" alt="ubc-wireframe" class="ubc-home3d">
             </div>
         </section>
         <section class="page-sec bg2 bg-b">
             <div class="page-inner">
             <h2 class="page-h2 ubc-h2">Sponsorship page Wireframe and Feature</h2>
-                <p class="ubc-sps-p">The Sponsorship price chart on their former website was a bit of confusing.<br>So I reorganize to make it more simple structure.</p>
+                <p class="ubc-sps-p">The Sponsorship price chart on their former website was a bit of confusing.<br>So I reorganize to make it more simple.</p>
                 <div class="sps-img cf">
                 	<div class="sps-before">
                         <img src="img/ubcbaja/sponsorship-before.jpg" alt="ubc-sponsorship-before" class="sps-before-img">
