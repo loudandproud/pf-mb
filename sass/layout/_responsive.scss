@@ -507,6 +507,32 @@
 	
 }
 
+@media (min-width:600px){
+	.gzt-tstmnl-left,
+	.ubc-tstmnl-left{
+		//width:20%;
+		//margin:0 auto 2rem;
+		float:left;
+		padding-right:2rem;
+	}
+
+		// .gzt-tstmnl-left-img{
+		// 	border-radius:50%;
+		// }	
+		.gzt-tstmnl,
+		.ubc-tstmnl{
+		    margin-top: 0;
+    		margin-bottom: 1rem;
+		}
+
+	.gzt-tstmnl-right,
+	.ubc-tstmnl-right{
+		float:left;
+		width:80%;
+	}
+
+}
+
 @media (min-width: 640px){
 	.headline{
 		font-size:6rem;

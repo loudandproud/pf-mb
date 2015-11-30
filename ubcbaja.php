@@ -89,15 +89,15 @@ if(!$detect->isMobile()){
                 </div>
             </div>
         </section>    
-        <section class="page-sec cf tip">
+        <section class="page-sec cf">
             <div class="page-inner">
                 <h2 class="page-h2 ">What they had to say...</h2>
                 <div class="tstmnl cf">
-                	<div class="tstmnl-left">
-                    	<img src="img/ubcbaja/sean.png" alt="ubc-baja-testmimonial" class="">
+                	<div class="ubc-tstmnl-left">
+                    	<img src="img/ubcbaja/sean.jpg" alt="ubc-baja-testmimonial" class="ubc-tstmnl-left-img">
                     </div>
-                    <div class="tstmnl-right">
-                    	<p class="tstmnl">The timelines of Toru's work and innate skill to capture our needs were huge factors to the success of our project. Eager, bright, and organized; I couldn't recommend anyone else!</p>
+                    <div class="ubc-tstmnl-right">
+                    	<p class="ubc-tstmnl">The timelines of Toru's work and innate skill to capture our needs were huge factors to the success of our project. Eager, bright, and organized; I couldn't recommend anyone else!</p>
                     	<span class="tstmnl-spn">Sean Hudson, UBC Baja Engineering Design Team</span>
                 	</div>
                 </div>

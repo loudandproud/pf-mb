@@ -77,20 +77,20 @@ if(!$detect->isMobile()){
             </div>
         </div>
     </section>            
-<!--     <section class="page-sec cf tip">
+    <section class="page-sec cf">
         <div class="page-inner">
             <h2 class="page-h2 ">What they had to say...</h2>
             <div class="tstmnl cf">
-            	<div class="tstmnl-left">
-                	<img src="img/gazettemag/dani.jpg" alt="ubc-baja-testmimonial" class="">
+            	<div class="gzt-tstmnl-left">
+                	<img src="img/gazettemag/andy.jpg" alt="ubc-baja-testmimonial" class="gzt-tstmnl-left-img">
                 </div>
-                <div class="tstmnl-right">
-                	<p class="">Toru is second to none.</p>
-                	<span class="tstmnl-spn">Dani Kremeniuk, Art Director</span>
+                <div class="gzt-tstmnl-right">
+                	<p class="gzt-tstmnl">Toru has demonstrated an ability to deliver high quality work. He is able to identify problems, develop solutions, and implement them within a team environment. Toru is innovative and quality driven in all aspects of his work.</p>
+                	<span class="tstmnl-spn">Andy Patton President, NWCE Ltd</span>
             	</div>
             </div>
         </div>
-    </section> -->
+    </section>
     <section class="page-sec cf">
         <div class="page-inner page-viewsite">
             <a href="https://gazettemag.com" class="viewsite" target="_blank">View Site</a>

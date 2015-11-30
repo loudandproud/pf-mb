@@ -195,8 +195,28 @@
 }
 
 .gzt-sps-p{
-	margin-bottom:30px;
+	margin-bottom:3rem;
 }
+
+.gzt-tstmnl{
+	width:100%;
+	margin:3rem auto;
+}
+	
+	.gzt-tstmnl-left{
+		width:20%;
+		margin:0 auto 2rem;
+	}
+
+		.gzt-tstmnl-left-img{
+			border-radius:50%;
+		}	
+	
+	.gzt-tstmnl-right{
+		color:#888;
+		margin-top:4px;
+		margin-bottom:13px;
+	}
 /*******************************
 
 	Innerpage - UBCBAJA
@@ -297,25 +317,28 @@
 	bottom: 47px;	
 }
 
-.tstmnl{
+.ubc-tstmnl{
 	width:100%;
 	margin:3rem auto;
 }
 	
-	.tstmnl-left{
+	.ubc-tstmnl-left{
 		width:20%;
 		margin:0 auto 2rem;
+		border-radius:50%;
 	}
 	
-	.tstmnl-right{
-		font-size:1.6rem;
+		.ubc-tstmnl-left-img{
+			border-radius:50%;
+		}	
+
+	.ubc-tstmnl-right{
 		color:#888;
 		margin-top:4px;
 		margin-bottom:13px;
 	}
 	
 	.tstmnl-spn{
-		font-size:1.6rem;
 		color:#888;
 	}
 
